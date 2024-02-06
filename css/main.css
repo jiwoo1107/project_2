@@ -4,167 +4,1233 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 
 *{margin: 0; padding: 0; box-sizing: border-box;}
 ul,ol,li {list-style: none;}
 a {text-decoration: none; color: #333;}
 
-/* 헤더 */
-header {width: 100%; height: 900px;
-background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
- background-repeat: no-repeat; background-size: cover;}
-
-.kingdom {width: 850px; height: 600px; position: absolute; z-index: 1; left: 7%;
-    border-radius: 60px 0px 80px 0px; top: 80px; border: 8px solid rgb(252, 252, 252);
-box-shadow: 1px 1px 100px 8px rgb(97, 97, 97); overflow: hidden;}
-#one {width: 100%; height: 100%; object-fit: fill; }
-
-.font1 {position: absolute; top: 650px; z-index: 1; left: 110px; width: 800px;}
-.wave {width: 420px ; position: absolute; right: 0; top: 120px;}
-.welcome {width: 1100px; height: 180px; position: absolute; opacity: 0.7;}
-.prince {width: 200px; position: absolute; z-index: 1; left: 830px; top: 20px;}
-.color {width: 100%; height: 300px; position: absolute; z-index: 1; top: 730px;}
-.flower {position: absolute; right: 120px; width: 120px; top: 560px; }
-.font2 {position: absolute; right: 20px; top: 240px; width: 300px;}
-.font3 {position: absolute; right: 50px; height: 100px; top: 440px;}
-
-/* 월드맵 */
-
-#course {width: 100%; height: 1500px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png);}
-#mario1 {position: absolute; left: 25px; width: 500px; top: 800px; z-index: 1;}
-.note {position: absolute; right: 0; top: 1450px; width: 400px;}
-
-#map { width: 1300px; height: 1000px; background-image: url(/img/back.yellow.png);
-  border-radius: 100px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
-.mapfont {width: 650px; margin-top: -60px; margin-bottom: 20px;}
-
-.mapimg{width: 100%; height: 800px; position: relative;}
-.mapimg img {width: 100%; height: 100%;}
-
-#wc {cursor: pointer;}
-#wc p {color: #fff; font-weight: 900; font-size: 17px; font-family: 'JalnanGothic'; letter-spacing: 1px; text-align: center; font-weight: 100; text-shadow: 2px 2px 2px black;}
-
-#wc .mbtn{position: absolute; z-index: 1; width: 180px; border-radius: 50px; padding: 10px; background-image: url(../img/블랙배경-투명도.png); background-size: cover;}
-#w1 {top: 400px; left: 200px;}
-#w2 {top: 150px; left: 500px; }
-#w3 {top: 300px; right: 330px; }
-#w4 {top: 530px; right: 140px; }
-#w5 {top: 720px; right: 270px; }
-#w6 {top: 600px; left: 290px; }
-#w7 {top: 670px; left: 540px;}
-
-#popwrap {width: 100vw; height: 100vh; top: 0; left: 0; position: fixed; z-index: 5; display: none; background-color: rgba(0,0,0,0.5)}
-#popup {width: 1000px; height: 600px; background-image: url(../img/흰색도트.png);
-position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%); z-index: 5; border: solid 2px rgb(78, 78, 78); overflow: hidden;
-border-radius: 5px;}
-.slide {width: calc(700% + 28px); margin-left: -0%;}
-.slide li {width: 14.25%; height: 600px; float: left; display: flex; justify-content: center; flex-flow: column wrap;
-align-items: center;}
-.slide li p {font-size: 20px; text-align: center; font-family: 'JalnanGothic';
-color: #333; padding: 20px 0 0 0; letter-spacing: 1px;}
-.videowrap {width: 80%; height: 75%; border-radius: 100px 0px; border: 6px solid rgb(53, 53, 53);
-box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); overflow: hidden;}
-.mapvideo {width: 101%;}
-
-span {position: absolute; top:50%; display: block; font-size: 40px; color:rgb(248, 59, 26); line-height: 100%; cursor: pointer; height: 50px; transform: translateY(-50%);
-border: 6px solid rgb(54, 54, 54); font-weight: 900; background-color: white; box-shadow: 4px 0px rgb(250, 212, 0);}
-span:hover {background: rgba(255,255,255,0.8); color:#1f1f1f;}
 
 
-.prev {left:0; border-radius: 100%; width: 60px; height: 60px; margin: 0px 20px;}
-.next {right:0; border-radius: 100%; width: 60px; height: 60px; margin: 0px 20px; text-align: center;}
-.prev:hover {box-shadow: none; translate: 1px;}
-.next:hover {box-shadow: none; translate: 1px;}
+   /* 푸터 */
+   footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
+   #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
+   #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+   #footera .ft2 {width: 400px; height: 150px;}
+   #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
+   #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+   text-align: center;}
+   #footera .ft3 ol {height: 155px;}
+   #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+ 
 
-#cbtn {position: absolute; right: 0;  border-radius: 100%; width: 60px; height: 60px;
-font-size: 40px; border: 6px solid rgb(54, 54, 54); color: rgb(248, 59, 26); background-color: white;
-text-align: center; margin: 20px; font-weight: 800; line-height: 50%; box-shadow: 4px 4px rgb(250, 212, 0);}
-#cbtn:hover {box-shadow: none; translate: 1px; color:#1f1f1f;}
-
-
-/* 섹션 */
-#back {width: 100%; height: 4000px;  margin: 0 auto; display: flex; justify-content: center; align-items: center; flex-flow: row wrap;
-background-image: url(../img/플라워왕국-고화질.png); background-attachment: fixed ; background-size: cover; background-position: center;}
-
-
-/* 코스별 */
-#level {width: 1100px; height: 700px; background-color: red; margin: 0 auto; border-radius: 100px 0px 100px 0px; margin-top: 150px;
-background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
-.box1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
-.box1 img {width: 50%; height: 60px;}
-.box2 {width: 100%; height: 600px; display: flex; justify-content: space-around; align-items: center;}
-.easy {width: 40%; height: 80%; display: flex; justify-content: center; flex-flow: row wrap;
-align-items: center;}
-.easy img {width: 100%;}
-.easybox {width: 98%; height: 270px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
-border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)}
-.easybox img {width: 100%; height: 100%;}
-.clickbox{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png);
-border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
-text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff;}
-.clickbox:hover {background-image: url(../img/back.yellow.png); color: #333;}
-
-
-.hard {width: 40%; height: 80%; ; display: flex; justify-content: center; flex-flow: row wrap;
-  align-items: center;}
-.hard img {width: 100%;}
-.hardbox {width: 98%; height: 270px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
-  border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)} 
-.hardbox img {width: 100%; height: 100%;}
-
-.pipe {position: absolute; width: 120px; height: 120px;  top: 40px; left: 30px; border-radius: 100%; padding: 15px; border: 5px solid rgb(48, 48, 48);
-background-image: url(../img/플라워왕국-고화질.png); background-position: center; background-size: cover;}
-.pipe img{width: 100%;}
-
-
-/* 아이템 */
-#item1 {width: 1100px; height: 900px; background-color: red; margin: 0 auto; border-radius: 100px 0px 100px 0px;
-  background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
-.ibox1 {width: 100%; height: 100px; background-color: rgb(0, 64, 240); background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
-.ibox1 img {height: 60px;}
-.ibox2 {width: 100%; height: 800px; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
-.itb {background-color: green; width: 48%; height: 35%; }
-
-.flt {width: 130px; height: 130px; background-color: gold; border-radius: 100%; position: absolute; top: 755px; right: 60px;
-  border: 5px solid rgb(48, 48, 48)}
-
-
-
-/* 몬스터 */
-#monster {width: 1100px; height: 700px; margin: 0 auto; border-radius: 100px 0px 100px 0px;
-  background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;}
-.mon1{width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
-.mon1 img {height: 60px;}
-
-.mon2{width: 100%; height: 600px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center;}
-.cupa {width: 48%; height: 70%; position: relative;}
-.cupa1 {width: 500px; height: 350px; position: absolute; z-index: 1; background-color: white; top: 70px; left: 13px;
-  border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); border-radius: 80px 0px;}
-.cupa1:hover {border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 0, 0);}
-
-.cupablack {position: absolute; top: 0px; left:8%; width: 450px;
-  animation:rotate_image 35s linear infinite;transform-origin: 50% 50%;}
-
-@keyframes rotate_image{
-  100% {
-      transform: rotate(360deg);
+@media screen and (max-width: 599px){
+  /* 헤더 */
+header {width: 100%; height: 600px;
+  background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
+   background-repeat: no-repeat; background-size: cover;}
+  
+  
+   /* 메뉴 */
+   nav ul {width: 200px; height: 300px; position: absolute; right: 0; position: fixed;
+  z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
+   nav ul li  {width: 130px; height: 44px; font-family: 'Pretendard-Regular'; line-height: 25px;
+  border-radius: 15px; text-align: center; margin: 3.5px 50px; padding: 6px; font-weight: 900; font-size: 15px; 
+  background-color: white; box-shadow: 4px 0px 0px rgb(250, 212, 0); border: 4px solid rgb(56, 56, 56); color:rgb(0, 0, 0);}
+  nav li a {color: black; }
+  nav ul li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 6px; cursor: pointer;
+  box-shadow: none; }
+  
+  nav ul .x {width: 35px; height: 35px; text-align: center; border-radius: 13px; font-size: 20px; font-family: 'JalnanGothic'; line-height: 30px;
+  border: 4px solid rgb(56, 56, 56); top: 25px; left: 5px;  color: rgb(247, 22, 22); box-shadow: 4px 0px 0px rgb(250, 212, 0);}
+  .x:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);
   }
+  
+   .a {width: 50px; height: 50px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
+  .b {display: none;}
+  
+  
+   /* 상단 */
+  .kingdom {width: 90%; height: 300px;
+    position: absolute; z-index: 1; left: 5%;
+      border-radius: 60px 0px 80px 0px; top: 40px; border: 8px solid rgb(252, 252, 252);
+  box-shadow: 1px 1px 100px 8px rgb(97, 97, 97); overflow: hidden;}
+  #one {width: 100%; height: 100%; object-fit: fill; }
+  
+  .font1 {position: absolute; z-index: 1; width: 65%; left: 65px; height: auto; top: 37%;}
+  .wave {width: 50% ; position: absolute; top: 380px; right: 0px; display: none;}
+  .welcome {width: 100%; height: 110px; position: absolute; opacity: 0.7;}
+  .prince {width: 18%; position: absolute; z-index: 1; right: 5px; top: 55px;}
+  .color {width: 100%; height: 200px; position: absolute; z-index: 1; top: 480px;}
+  .flower {position: absolute; right: 10%; width: 100px; top: 415px; }
+  .font2 {position: absolute; right: 25%; top: 740px; width: 23%; display: none; }
+  .font3 {position: absolute; right: 170px; height: 60px; top: 415px; cursor: pointer;} 
+  
+  /* 월드맵 */
+  
+  #course {width: 100%; height: 800px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
+  position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png);}
+  #mario1 {position: absolute; left: 0px; width: 30%; top: 500px; z-index: 1; left: 10px;}
+  .note {position: absolute; right: 0; top: 760px; width: 300px;}
+  
+  #map { width: 95%; height: 55%; background-image: url(/img/back.yellow.png);
+    border-radius: 50px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
+  .mapfont {width: 95%; height: 33px; margin-bottom: 20px; margin-top: -30px;}
+  
+  .mapimg{width: 100%; height: 300px; position: relative;}
+  .mapimg img {width: 100%; height: 100%;}
+  
+  #wc {cursor: pointer;}
+  #wc p {color: #fff; font-weight: 100; font-size: 11px; font-family: 'JalnanGothic'; letter-spacing: 1px; text-align: center; text-shadow: 1px 1px 1px rgb(0, 0, 0);}
+  
+  #wc .mbtn{position: absolute; z-index: 1; width: 40px; height: 35px; border-radius: 30px; padding: 9px; background-image: url(../img/블랙배경-투명도.png); background-size: cover;
+  line-height: 18px;}
+  #wc .mbtn:hover {background-color: rgb(0, 0, 0); scale: 1.1;}
+
+  #w1 {top: 160px; left: 16%; }
+  #w2 {top: 50px; left: 39%; }
+  #w3 {top: 110px; right: 26%; }
+  #w4 {top: 190px; right: 10%; }
+  #w5 {top: 260px; right: 20%; }
+  #w6 {top: 240px; left: 22%; }
+  #w7 {top: 245px; left: 43%; }
+  
+  #popwrap {width: 100vw; height: 100vh; top: 0; left: 0; position: fixed; z-index: 5; display: none; background-color: rgba(0,0,0,0.5)}
+  #popup {width: 90%; height: 330px; background-image: url(../img/흰색도트.png);
+  position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%); z-index: 5; border: solid 2px rgb(78, 78, 78); overflow: hidden;
+  border-radius: 5px;}
+  .slide {width: calc(700% + 28px); margin-left: -0%;}
+  .slide li {width: 14.25%; height: 330px; float: left; display: flex; justify-content: center; flex-flow: column wrap;
+  align-items: center ;}
+  .slide li p {font-size: 15px; text-align: center; font-family: 'JalnanGothic'; 
+  color: #333; padding: 20px 45px; letter-spacing: 1px; margin-bottom: -20px; height: 50px;}
+  .videowrap {width: 63%; height: 180px; border-radius: 30px 0px; border: 5px solid rgb(53, 53, 53);
+  box-shadow: 0px 0px 0px 5px rgb(250, 212, 0); overflow: hidden;}
+  .mapvideo { object-fit: fill; width: 101%; height: 100%;}
+  
+  span {position: absolute; top:50%; display: block; font-size: 23px; color:rgb(248, 59, 26); line-height: 100%; cursor: pointer; height: 50px; transform: translateY(-50%);
+  border: 5px solid rgb(54, 54, 54); font-weight: 900; background-color: white; box-shadow: 3px 0px rgb(250, 212, 0);}
+  span:hover {background: rgba(255,255,255,0.8); color:#1f1f1f;}
+  
+  
+  .prev {left:0; border-radius: 100%; width: 40px; height: 40px; margin: 0px 10px; }
+  .next {right:0; border-radius: 100%; width: 40px; height: 40px; margin: 0px 10px; text-align: center;}
+  .prev:hover {box-shadow: none; translate: 1px;}
+  .next:hover {box-shadow: none; translate: 1px;}
+  
+  #cbtn {position: absolute; right: 0;  border-radius: 100%; width: 40px; height: 40px;
+  font-size: 25px; border: 5px solid rgb(54, 54, 54); color: rgb(248, 59, 26); background-color: white;
+  text-align: center; margin: 10px; font-weight: 800; line-height: 50%; box-shadow: 3px 3px rgb(250, 212, 0);}
+  #cbtn:hover {box-shadow: none; translate: 1px; color:#1f1f1f;}
+  
+  
+  /* 섹션 */
+
+  #back {width: 100%; height: 4700px;  margin: 0 auto; display: flex; justify-content: center; align-content:space-around ; flex-flow: row wrap;
+  background-image: url(../img/플라워왕국-고화질.png); background-attachment: fixed ; background-size: cover; background-position: center;}
+  
+  
+  /* 코스별 */
+  #level {width: 90%; height: 870px; background-color: red; margin: 0 auto; border-radius: 50px 0px 50px 0px; margin-top: 150px;
+  background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);
+  }
+  .box1 {width: 100%; height: 70px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .box1 img {height: 32px;}
+  .box2 {width: 100%; height: 800px; display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;}
+  .easy {width: 85%; height: 45%; display: flex; justify-content: center; flex-flow: row wrap;
+  align-items: center;}
+  .easy img {width: 100%; height: 40px;}
+  .easybox {width: 98%; height: 60%; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+  border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)}
+  .easybox img {width: 100%; height: 100%;}
+  .clickbox{width: 120px; height: 60px; background-image: url(../img/블랙배경-투명도.png);
+  border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+  text-align: center; font-size: 18px; font-weight: 800; line-height: 55px; font-family: 'JalnanGothic'; color: #fff; cursor: pointer;}
+  .clickbox:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  
+  
+  .hard {width: 85%; height: 45%; ; display: flex; justify-content: center; flex-flow: row wrap;
+    align-items: center;}
+  .hard img {width: 100%; height: 40px;}
+  .hardbox {width: 98%; height: 60%; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)} 
+  .hardbox img {width: 100%; height: 100%;}
+  
+  .pipe {position: absolute; width: 140px; height: 140px;  top: 15px; left: 30px; border-radius: 100%; padding: 15px; border: 5px solid rgb(48, 48, 48);
+  background-image: url(../img/플라워왕국-고화질.png); background-position: center; background-size: cover; display: none;}
+  .pipe img{width: 100%;}
+  
+  
+  /* 아이템 */
+  #item {width: 90%; height: 1400px; position: relative; margin: 0 auto;}
+  #item1 {width: 100%; height: 1200px; background-color:tomato; margin: 0 auto; border-radius: 50px 0px 50px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  .ibox1 {width: 100%; height: 70px; background-color: rgb(0, 64, 240); background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .ibox1 img {height: 26px; }
+  
+  .ibox2 {width: 100%; height: 1130px; display: flex; flex-wrap: wrap; justify-content: space-around; align-content: space-around ;}
+  .itb {width: 85%; height: 280px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/파랑패턴배경1.png);
+  position: relative; background-size: cover;}
+  .itb img {width: 50%; height: 45%; z-index: 1;}
+  .itembox {width: 46%; height: 45px; background-color: white; border-radius: 30px; text-align: center; border: 4px rgb(46, 46, 46) solid;
+  font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 40px; z-index: 1; margin: 0px 50px;
+  margin-top: 0px; padding: 2px; font-size: 14px; font-size: 19px;}
+  
+  .itb p {text-align: center; font-size: 14px; font-family: 'Pretendard-Regular'; width: 80%; margin-bottom: 20px;
+    font-weight: 800; color:#fff; line-height: 23px;}
+  .itb .efe {position: absolute; width: 60%; height: 170px; top: 5px; z-index: 0;}
+  
+  .clickbox2{width: 120px; height: 60px; background-image: url(../img/블랙배경-투명도.png); margin-top: -50px;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+    text-align: center; font-size: 18px; font-weight: 800; line-height: 55px; font-family: 'JalnanGothic'; color: #fff; cursor: pointer;}
+    .clickbox2:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  #elephant {position: absolute; z-index: 1; width: 200px; left: -30px;
+  top: 1240px;}
+  #drilll {position: absolute; z-index: 1; transform: scaleX(-1); right: -20px;
+  width: 25%; top: -130px;}
+  #mulbox {position: absolute; width: 180px; left: -20px; top: 1380px;}
+  
+  
+  /* 몬스터 */
+  #monster {width: 90%; height: 550px; margin: 0 auto; border-radius: 50px 0px 50px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;
+    box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  .caution {position: absolute; width: 100px; left: 10px; top: 110px; z-index: 3;}
+  
+    .mon1{width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .mon1 img {height: 38px;}
+  
+  .mon2{width: 100%; height: 450px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; position: relative;}
+  .cupafont {width: 30%; position: absolute; top: 15px; left: 37%; z-index: 1; display: none;}
+  .cupa {width: 80%; height: 300px; position: relative; display: flex; justify-content: center;}
+  .cupa1 {width: 98%; height: 300px; position: absolute; z-index: 1; background-color: white; top: 20px; 
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); border-radius: 80px 0px; overflow: hidden; }
+  .cupa1 .vcupa {width: 101%; height: 100%; object-fit: fill;}
+  .cupablack {width: 100%;
+    animation:rotate_image 35s linear infinite;transform-origin: 50% 50%;}
+  
+  @keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  .jopmon {width: 48%; height: 70%; position: relative; display: none;}
+  .m1 {position: absolute; width: 300px; right: 0px; top: 0px;}
+  .m2 {position: absolute; width: 180px; right: 240px; top: 240px;}
+  .m3 {position: absolute; width: 200px; right: 0px; top: 280px; ;}
+  .vs {width: 180px; position: absolute; top: 170px; right:120px;}
+  
+  .clickbox3{width: 120px; height: 60px; background-image: url(../img/블랙배경-투명도.png); margin-top: -50px; margin-top: 20px; margin-bottom: 20px;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+    text-align: center; font-size: 18px; font-weight: 800; line-height: 55px; font-family: 'JalnanGothic'; color: #fff; cursor: pointer;}
+    .clickbox3:hover {background-image: url(../img/back.yellow.png); color: #333;}
+    
+  
+  /* 함께 */
+  #line {width: 100%; height: 1200px; position: relative; }
+  #line .prince1 {position: absolute; z-index: 1; width: 120px; left: 0px; top: -30px;}
+  #together {width: 100%; height: 1200px; margin: 0 auto;  display: flex; justify-content: center; position: relative; flex-wrap: wrap; align-content: space-around;}
+  #together article {width: 90%; height: 500px; background-color: white; border-radius: 50px 0px 50px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; } 
+  
+  .mujeock{position: absolute; top: 1070px; width: 200px; right: 3px; z-index: 1;}
+  
+  /* 친구와 함께 */
+  #friend1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  #friend1 img {height: 38px;}
+  #friend2 {width: 100%; height: 400px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center; position: relative;}
+  #friend2 .fev {width: 80%; height: 235px; border: 4px solid rgb(46, 46, 46); margin-top: 30px; object-fit: fill; border-radius: 20px;}
+  #friend2 .in4 {position: absolute;width: 90px; right: 5px; top: 10px;}
+  .clickbox4{width: 120px; height: 60px; background-image: url(../img/블랙배경-투명도.png); margin-top: -20px; 
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+    text-align: center; font-size: 18px; font-weight: 800; line-height: 55px; font-family: 'JalnanGothic'; color: #fff; cursor: pointer;}
+    .clickbox4:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  
+  /* 모르는 사람과 함께 */
+  #mf1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items:center ; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  #mf1 img {height: 40px;}
+  #mf2 {width: 100%; height: 400px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;}
+  #mf2 .mfbox {width: 80%; height: 200px; margin-top: 30px;  overflow: hidden;
+    border: 4px solid rgb(46, 46, 46); border-radius: 20px;}
+  #mf2 img {width: 100%; height: 100%;}
+  #mf2 .in12 {position: absolute; height: 90px; width: 90px; right: 5px; top: 113px;}
+  
+  /* 푸터 */
+  footer {width: 100%; height: 550px; background-color: #333; background-image: url(../img/블랙배경.png);}
+  #footera {width: 100%; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
+  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+  #footera .ft2 {width: 400px; height: 150px;}
+  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
+  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+  text-align: center;}
+  #footera .ft3 ol {height: 155px; margin-bottom: 20px;}
+  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+
 }
 
-.jopmon {width: 48%; height: 70%; position: relative;}
-.m1 {position: absolute; width: 350px; right: 1px;}
-.m2 {position: absolute; width: 200px; right: 300px; top: 260px;}
-.m3 {position: absolute; width: 200px; right: 30px; top: 360px;}
+@media screen and (min-width: 600px){
+  /* 헤더 */
+header {width: 100%; height: 900px;
+  background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
+   background-repeat: no-repeat; background-size: cover;}
+  
+  
+   /* 메뉴 */
+   nav ul {width: 260px; height: 400px; position: absolute; right: 0; position: fixed;
+  z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
+   nav li  {width: 170px; height: 53px; font-family: 'Pretendard-Regular';
+  border-radius: 30px; text-align: center; margin: 10px 70px; padding: 12px; font-weight: 900; font-size: 17px;
+  background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(248, 59, 26);}
+  nav li a {color: black;}
+  nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
+  box-shadow: none; }
+  
+  nav ul .x {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px;
+  border: 5px solid rgb(56, 56, 56); top: 36px; left: 6px; padding: 1px; color: tomato; ;box-shadow: 4px 4px 0px rgb(250, 212, 0);}
+  .x:hover {background-color: gold;  border: 4px #333 solid; padding: 3px; box-shadow: none; color: rgb(54,54,54);}
+  
+   .a {width: 70px; height: 70px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
+  .b {display: none;}
+  
+  
+   /* 상단 */
+  .kingdom {width: 80%; height: 480px;
+    position: absolute; z-index: 1; left: 7%;
+      border-radius: 60px 0px 80px 0px; top: 60px; border: 8px solid rgb(252, 252, 252);
+  box-shadow: 1px 1px 100px 8px rgb(97, 97, 97); overflow: hidden;}
+  #one {width: 100%; height: 100%; object-fit: fill; }
+  
+  .font1 {position: absolute; z-index: 1; width: 70%; left: 11%; height: auto; top: 54%;}
+  .wave {width: 50% ; position: absolute; top: 380px; right: 0px; display: none;}
+  .welcome {width: 100%; height: 150px; position: absolute; opacity: 0.7;}
+  .prince {width: 18%; position: absolute; z-index: 1; right: 10px; top: 70px;}
+  .color {width: 100%; height: 300px; position: absolute; z-index: 1; top: 700px;}
+  .flower {position: absolute; right: 10%; width: 130px; top: 610px; }
+  .font2 {position: absolute; right: 25%; top: 740px; width: 23%; display: none; }
+  .font3 {position: absolute; right: 250px; height: 70px; top: 630px; cursor: pointer;} 
+  
+  /* 월드맵 */
+  
+  #course {width: 100%; height: 1000px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
+  position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png);}
+  #mario1 {position: absolute; left: 0px; width: 30%; top: 650px; z-index: 1; left: 10px;}
+  .note {position: absolute; right: 0; top: 950px; width: 400px;}
+  
+  #map { width: 90%; height: 60%; background-image: url(/img/back.yellow.png);
+    border-radius: 100px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
+  .mapfont {width: 80%px; height: 40px; margin-bottom: 20px; margin-top: -70px;}
+  
+  .mapimg{width: 100%; height: 400px; position: relative;}
+  .mapimg img {width: 100%; height: 100%;}
+  
+  #wc {cursor: pointer;}
+  #wc p {color: #fff; font-weight: 100; font-size: 11px; font-family: 'JalnanGothic'; letter-spacing: 1px; text-align: center; text-shadow: 1px 1px 1px rgb(90, 90, 90);}
+  
+  #wc .mbtn{position: absolute; z-index: 1; width: 120px; border-radius: 50px; padding: 9px; background-image: url(../img/블랙배경-투명도.png); background-size: cover;}
+  #wc .mbtn:hover {background-color: rgb(0, 0, 0); scale: 1.1;}
+  #w1 {top: 220px; left: 14%;}
+  #w2 {top: 80px; left: 38%; }
+  #w3 {top: 150px; right: 24%; }
+  #w4 {top: 260px; right: 10%; }
+  #w5 {top: 350px; right: 16%; }
+  #w6 {top: 335px; left: 20%; }
+  #w7 {top: 320px; left: 42%; }
+  
+  #popwrap {width: 100vw; height: 100vh; top: 0; left: 0; position: fixed; z-index: 5; display: none; background-color: rgba(0,0,0,0.5)}
+  #popup {width: 80%; height: auto; background-image: url(../img/흰색도트.png);
+  position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%); z-index: 5; border: solid 2px rgb(78, 78, 78); overflow: hidden;
+  border-radius: 5px;}
+  .slide {width: calc(700% + 28px); margin-left: -0%;}
+  .slide li {width: 14.25%; height: 500px; float: left; display: flex; justify-content: center; flex-flow: column wrap;
+  align-items: center;}
+  .slide li p {font-size: 17px; text-align: center; font-family: 'JalnanGothic';
+  color: #333; padding: 20px 0 0 0; letter-spacing: 1px; padding: 20px 90px;}
+  .videowrap {width: 70%; height: 70%; border-radius: 50px 0px; border: 6px solid rgb(53, 53, 53);
+  box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); overflow: hidden;}
+  .mapvideo {width: 101%; height: 100%; object-fit: fill;}
+  
+  span {position: absolute; top:50%; display: block; font-size: 40px; color:rgb(248, 59, 26); line-height: 100%; cursor: pointer; height: 50px; transform: translateY(-50%);
+  border: 6px solid rgb(54, 54, 54); font-weight: 900; background-color: white; box-shadow: 4px 0px rgb(250, 212, 0);}
+  span:hover {background: rgba(255,255,255,0.8); color:#1f1f1f;}
+  
+  
+  .prev {left:0; border-radius: 100%; width: 60px; height: 60px; margin: 0px 20px;}
+  .next {right:0; border-radius: 100%; width: 60px; height: 60px; margin: 0px 20px; text-align: center;}
+  .prev:hover {box-shadow: none; translate: 1px;}
+  .next:hover {box-shadow: none; translate: 1px;}
+  
+  #cbtn {position: absolute; right: 0;  border-radius: 100%; width: 60px; height: 60px;
+  font-size: 40px; border: 6px solid rgb(54, 54, 54); color: rgb(248, 59, 26); background-color: white;
+  text-align: center; margin: 20px; font-weight: 800; line-height: 50%; box-shadow: 4px 4px rgb(250, 212, 0);}
+  #cbtn:hover {box-shadow: none; translate: 1px; color:#1f1f1f;}
+  
+  
+  /* 섹션 */
+  #back {width: 100%; height: 3700px;  margin: 0 auto; display: flex; justify-content: center; align-items: center; flex-flow: row wrap;
+  background-image: url(../img/플라워왕국-고화질.png); background-attachment: fixed ; background-size: cover; background-position: center;}
+  
+  
+  /* 코스별 */
+  #level {width: 90%; height: 700px; background-color: red; margin: 0 auto; border-radius: 70px 0px 70px 0px; margin-top: 150px;
+  background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);
+  }
+  .box1 {width: 100%; height: 90px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .box1 img {height: 40px;}
+  .box2 {width: 100%; height: 650px; display: flex; justify-content: space-around; align-items: center;}
+  .easy {width: 44%; height: 80%; display: flex; justify-content: center; flex-flow: row wrap;
+  align-items: center;}
+  .easy img {width: 100%; height: 50px;}
+  .easybox {width: 98%; height: 60%; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+  border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)}
+  .easybox img {width: 100%; height: 100%;}
+  .clickbox{width: 150px; height: 70px; background-image: url(../img/블랙배경-투명도.png);
+  border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+  text-align: center; font-size: 20px; font-weight: 800; line-height: 70px; font-family: 'JalnanGothic'; color: #fff; cursor: pointer;}
+  .clickbox:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  
+  
+  .hard {width: 44%; height: 80%; ; display: flex; justify-content: center; flex-flow: row wrap;
+    align-items: center;}
+  .hard img {width: 100%; height: 50px;}
+  .hardbox {width: 98%; height: 60%; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0) ; } 
+  .hardbox img {width: 100%; height: 100%;}
+  
+  .pipe {position: absolute; width: 10%;  top: 48px; left: 30px; border-radius: 100%; padding: 15px; border: 5px solid rgb(48, 48, 48);
+  background-image: url(../img/플라워왕국-고화질.png); background-position: center; background-size: cover; display: none;}
+  .pipe img{width: 100%;}
+  
+  
+  /* 아이템 */
+  #item {width: 90%; height: 800px; position: relative; margin: 0 auto;}
+  #item1 {width: 100%; height: 750px; background-color:tomato; margin: 0 auto; border-radius: 70px 0px 70px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  .ibox1 {width: 100%; height: 100px; background-color: rgb(0, 64, 240); background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .ibox1 img {width: 65%; height: 45px; }
+  
+  .ibox2 {width: 100%; height: 700px; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+  .itb {width: 30%; height: 50%; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/파랑패턴배경1.png);
+  position: relative; background-size: cover;}
+  .itb img {width: 50%; height: 35%; z-index: 1;}
+  .itembox {width: 60%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 4px rgb(46, 46, 46) solid;
+  font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 40px; z-index: 1;
+  margin-top: 5px; padding: 2px; font-size: 14px;}
+  
+  .itb p {text-align: center; font-size: 14px; font-family: 'Pretendard-Regular'; width: 80%; margin-bottom: 20px;
+    font-weight: 800; color:#fff; line-height: 23px;}
+  .itb .efe {position: absolute; width: 90%; height: 200px; top: 5px; z-index: 0;}
+  
+  .clickbox2{width: 150px; height: 70px; background-image: url(../img/블랙배경-투명도.png); margin-bottom: 80px;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107); cursor: pointer;
+    text-align: center; font-size: 20px; font-weight: 800; line-height: 70px; font-family: 'JalnanGothic'; color: #fff; margin-top: -90px;}
+  .clickbox2:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  #elephant {position: absolute; z-index: 1; width: 260px; left: -30px;
+  top: 590px;}
+  #drilll {position: absolute; z-index: 1; transform: scaleX(-1); right: -10px;
+  width: 18%; top: -20px;}
+  #mulbox {position: absolute; width: 220px; left: -10px; top: 770px;}
+  
+  
+  /* 몬스터 */
+  #monster {width: 90%; height: 680px; margin: 0 auto; border-radius: 70px 0px 70px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;
+    box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  .caution {position: absolute; width: 130px; left: 30px; top: 10px;}
+  
+    .mon1{width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .mon1 img {height: 40px;}
+  
+  .mon2{width: 100%; height: 580px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; position: relative;}
+  .cupafont {width: 30%; position: absolute; top: 15px; left: 37%; z-index: 1; display: none;}
+  .cupa {width: 85%; height: 70%; position: relative; display: flex; justify-content: center;}
+  .cupa1 {width: 98%; height: 350px; position: absolute; z-index: 1; background-color: white; top: 20px; 
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); border-radius: 80px 0px; overflow: hidden; }
+  .cupa1 .vcupa {width: 101%; height: 100%; object-fit: fill;}
+  .cupablack {width: 100%;
+    animation:rotate_image 35s linear infinite;transform-origin: 50% 50%;}
+  
+  @keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  .jopmon {width: 48%; height: 70%; position: relative; display: none;}
+  .m1 {position: absolute; width: 300px; right: 0px; top: 0px;}
+  .m2 {position: absolute; width: 180px; right: 240px; top: 240px;}
+  .m3 {position: absolute; width: 200px; right: 0px; top: 280px; ;}
+  .vs {width: 180px; position: absolute; top: 170px; right:120px;}
+  
+  .clickbox3{width: 150px; height: 70px; background-image: url(../img/블랙배경-투명도.png); cursor: pointer;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+    text-align: center; font-size: 20px; font-weight: 800; line-height: 69px; font-family: 'JalnanGothic'; color: #fff; margin-top: -90px;}
+  .clickbox3:hover {background-image: url(../img/back.yellow.png); color: #333;}
+    
+  
+  /* 함께 */
+  #line {width: 100%; height: 450px; position: relative; }
+  #line .prince1 {position: absolute; z-index: 1; width: 120px; left: 0px; top: -60px;}
+  #together {width: 90%; height: 500px; margin: 0 auto;  display: flex; justify-content: space-between; position: relative;}
+  #together article {width: 48%; height: 100%; background-color: white; border-radius: 60px 0px 60px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;}
+  
+  .mujeock{position: absolute; top: 470px; width: 180px; right: -30px; z-index: 1;}
+  
+  /* 친구와 함께 */
+  #friend1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  #friend1 img {height: 40px;}
+  #friend2 {width: 100%; height: 400px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center; position: relative;}
+  #friend2 .fev {width: 80%; height: 235px; border: 4px solid rgb(46, 46, 46); margin-top: 30px; object-fit: fill; border-radius: 20px;}
+  #friend2 .in4 {position: absolute;width: 90px; right: 35px; top: 10px;}
+  .clickbox4{width: 150px; height: 70px; background-image: url(../img/블랙배경-투명도.png); cursor: pointer;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107); margin-bottom: 20px;
+    text-align: center; font-size: 20px; font-weight: 800; line-height: 67px; font-family: 'JalnanGothic'; color: #fff;}
+  .clickbox4:hover {background-image: url(../img/back.yellow.png); color: #333; }
+  
+  /* 모르는 사람과 함께 */
+  #mf1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items:center ; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  #mf1 img {height: 40px;}
+  #mf2 {width: 100%; height: 400px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;}
+  #mf2 .mfbox {width: 80%; height: 235px; margin-top: 30px;  overflow: hidden;
+    border: 4px solid rgb(46, 46, 46); border-radius: 20px;}
+  #mf2 img {width: 100%; height: 100%;}
+  #mf2 .in12 {position: absolute; height: 90px; width: 90px; right: 35px; top: 108px;}
+  
+  /* 푸터 */
+  footer {width: 100%; height: 400px; background-color: #333; background-image: url(../img/블랙배경.png);}
+  #footera {width: 100%; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
+  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+  #footera .ft2 {width: 50%; height: 150px; display: flex; justify-content: center; align-items: center;}
+  #footera .ft2 img{width: 50%; height: 80%; margin: 0px;}
+  #footera .ft3 {width: 50%;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+  text-align: center;}
+  #footera .ft3 ol {height: 155px;}
+  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+}
 
+@media screen and (min-width : 1024px){
+  /* 헤더 */
+header {width: 100%; height: 1050px;
+  background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
+   background-repeat: no-repeat; background-size: cover;}
+  
+  
+   /* 메뉴 */
+   nav ul {width: 260px; height: 400px; position: absolute; right: 0; position: fixed;
+  z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
+   nav li  {width: 170px; height: 53px; font-family: 'Pretendard-Regular';
+  border-radius: 30px; text-align: center; margin: 10px 70px; padding: 12px; font-weight: 900; font-size: 17px;
+  background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(248, 59, 26);}
+  nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
+  box-shadow: none; }
+  
+  nav ul .x {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px;
+  border: 5px solid rgb(56, 56, 56); top: 36px; left: 6px; padding: 1px; color: tomato; ;box-shadow: 4px 4px 0px rgb(250, 212, 0);}
+  .x:hover {background-color: gold;  border: 4px #333 solid; padding: 3px; box-shadow: none; color: rgb(54,54,54);}
+  
+   .a {width: 70px; height: 70px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
+  .b {display: none;}
+  
+  
+   /* 상단 */
+  .kingdom {width: 86%; height: 580px; position: absolute; z-index: 1; left: 7%;
+      border-radius: 60px 0px 80px 0px; top: 80px; border: 8px solid rgb(252, 252, 252);
+  box-shadow: 1px 1px 100px 8px rgb(97, 97, 97); overflow: hidden;}
+  #one {width: 100%; height: 100%; object-fit: fill; }
+  
+  .font1 {position: absolute; top: 590px; z-index: 1; left: 150px; width: 700px;}
+  .wave {width: 60% ; position: absolute; top: 350px; right: 0px; display: block;}
+  .welcome {width: 100%; height: 180px; position: absolute; opacity: 0.7;}
+  .prince {width: 18%; position: absolute; z-index: 1; right: 10px; top: 70px;}
+  .color {width: 100%; height: 300px; position: absolute; z-index: 1; top: 880px;}
+  .flower {position: absolute; right: 90px; width: 130px; top: 780px; }
+  .font2 {position: absolute; right: 25%; top: 740px; width: 23%; display: block;}
+  .font3 {position: absolute; right: 50px; height: 80px; top: 680px; cursor: pointer;} 
+  
+  /* 월드맵 */
+  
+  #course {width: 100%; height: 1300px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
+  position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png);}
+  #mario1 {position: absolute; left: 0px; width: 30%; top: 740px; z-index: 1; left: 10px;}
+  .note {position: absolute; right: 0; top: 1250px; width: 400px;}
+  
+  #map { width: 90%; height: 800px; background-image: url(/img/back.yellow.png);
+    border-radius: 100px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
+  .mapfont {width: 600px; height: 50px; margin-top: -80px; margin-bottom: 20px;}
+  
+  .mapimg{width: 100%; height: 600px; position: relative;}
+  .mapimg img {width: 100%; height: 100%;}
+  
+  #wc {cursor: pointer;}
+  #wc p {color: #fff; font-weight: 900; font-size: 14px; font-family: 'JalnanGothic'; letter-spacing: 1px; text-align: center; font-weight: 100; text-shadow: 2px 2px 2px black;}
+  
+  #wc .mbtn{position: absolute; z-index: 1; width: 143px; border-radius: 50px; padding: 10px; background-image: url(../img/블랙배경-투명도.png); background-size: cover;}
+  #wc .mbtn:hover {background-color: rgb(0, 0, 0); scale: 1.1;}
+  #w1 {top: 315px; left: 17%;}
+  #w2 {top: 100px; left: 38%; }
+  #w3 {top: 220px; right: 25%; }
+  #w4 {top: 395px; right: 15%; }
+  #w5 {top: 540px; right: 20%; }
+  #w6 {top: 440px; left: 23%; }
+  #w7 {top: 500px; left: 41%; }
+  
+  #popwrap {width: 100vw; height: 100vh; top: 0; left: 0; position: fixed; z-index: 5; display: none; background-color: rgba(0,0,0,0.5)}
+  #popup {width: 60%; height: 580px; background-image: url(../img/흰색도트.png);
+  position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%); z-index: 5; border: solid 2px rgb(78, 78, 78); overflow: hidden;
+  border-radius: 5px;}
+  .slide {width: calc(700% + 28px); margin-left: -0%;}
+  .slide li {width: 14.25%; height: 600px; float: left; display: flex; justify-content: center; flex-flow: column wrap;
+  align-items: center;}
+  .slide li p {font-size: 20px; text-align: center; font-family: 'JalnanGothic';
+  color: #333; padding: 20px 0 0 0; letter-spacing: 1px;}
+  .videowrap {width: 70%; height: 70%; border-radius: 100px 0px; border: 6px solid rgb(53, 53, 53);
+  box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); overflow: hidden;}
+  .mapvideo {width: 103%;}
+  
+  span {position: absolute; top:50%; display: block; font-size: 40px; color:rgb(248, 59, 26); line-height: 100%; cursor: pointer; height: 50px; transform: translateY(-50%);
+  border: 6px solid rgb(54, 54, 54); font-weight: 900; background-color: white; box-shadow: 4px 0px rgb(250, 212, 0);}
+  span:hover {background: rgba(255,255,255,0.8); color:#1f1f1f;}
+  
+  
+  .prev {left:0; border-radius: 100%; width: 60px; height: 60px; margin: 0px 20px;}
+  .next {right:0; border-radius: 100%; width: 60px; height: 60px; margin: 0px 20px; text-align: center;}
+  .prev:hover {box-shadow: none; translate: 1px;}
+  .next:hover {box-shadow: none; translate: 1px;}
+  
+  #cbtn {position: absolute; right: 0;  border-radius: 100%; width: 60px; height: 60px;
+  font-size: 40px; border: 6px solid rgb(54, 54, 54); color: rgb(248, 59, 26); background-color: white;
+  text-align: center; margin: 20px; font-weight: 800; line-height: 50%; box-shadow: 4px 4px rgb(250, 212, 0);}
+  #cbtn:hover {box-shadow: none; translate: 1px; color:#1f1f1f;}
+  
+  
+  /* 섹션 */
+  #back {width: 100%; height: 3700px;  margin: 0 auto; display: flex; justify-content: center; align-items: center; flex-flow: row wrap;
+  background-image: url(../img/플라워왕국-고화질.png); background-attachment: fixed ; background-size: cover; background-position: center;}
+  
+  
+  /* 코스별 */
+  #level {width: 90%; height: 750px; background-color: red; margin: 0 auto; border-radius: 100px 0px 100px 0px; margin-top: 150px;
+  background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);
+  }
+  .box1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .box1 img {height: 45px;}
+  .box2 {width: 100%; height: 650px; display: flex; justify-content: space-around; align-items: center;}
+  .easy {width: 44%; height: 80%; display: flex; justify-content: center; flex-flow: row wrap;
+  align-items: center;}
+  .easy img {width: 100%;}
+  .easybox {width: 98%; height: 320px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+  border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)}
+  .easybox img {width: 100%; height: 100%;}
+  .clickbox{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png);
+  border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+  text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff; cursor: pointer;}
+  .clickbox:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  
+  
+  .hard {width: 45%; height: 80%; ; display: flex; justify-content: center; flex-flow: row wrap;
+    align-items: center;}
+  .hard img {width: 100%;}
+  .hardbox {width: 98%; height: 320px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)} 
+  .hardbox img {width: 100%; height: 100%;}
+  
+  .pipe {position: absolute; width: 140px; height: 140px;  top: 15px; left: 30px; border-radius: 100%; padding: 15px; border: 5px solid rgb(48, 48, 48);
+  background-image: url(../img/플라워왕국-고화질.png); background-position: center; background-size: cover;}
+  .pipe img{width: 100%;}
+  
+  
+  /* 아이템 */
+  #item {width: 90%; height: 800px; position: relative; margin: 0 auto;}
+  #item1 {width: 100%; height: 750px; background-color:tomato; margin: 0 auto; border-radius: 100px 0px 100px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  .ibox1 {width: 100%; height: 100px; background-color: rgb(0, 64, 240); background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .ibox1 img {height: 45px; }
+  
+  .ibox2 {width: 100%; height: 700px; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+  .itb {width: 30%; height: 50%; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/파랑패턴배경1.png);
+  position: relative; background-size: cover;}
+  .itb img {width: 53%; height: 38%; z-index: 1;  }
+  .itembox {width: 50%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 4px rgb(46, 46, 46) solid;
+  font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 40px; z-index: 1;
+  margin-top: 5px; padding: 2px;}
+  
+  .itb p {text-align: center; font-size: 17px; font-family: 'Pretendard-Regular'; width: 80%; margin-bottom: 20px;
+    font-weight: 800; color:#fff; line-height: 23px;}
+  .itb .efe {position: absolute; width: 200px; height: 180px; top: 5px; z-index: 0;}
+  
+  .clickbox2{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png); margin-bottom: 80px;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107); cursor: pointer;
+    text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff; margin-top: -90px;}
+  .clickbox2:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  #elephant {position: absolute; z-index: 1; width: 340px; left: 0px;
+  top: 550px;}
+  #drilll {position: absolute; z-index: 1; transform: scaleX(-1); right: -40px;
+  width: 18%; top: -20px;}
+  #mulbox {position: absolute; width: 250px; left: 10px; top: 790px;}
+  
+  
+  /* 몬스터 */
+  #monster {width: 90%; height: 750px; margin: 0 auto; border-radius: 100px 0px 100px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;}
+  .caution {position: absolute; width: 130px; left: 30px; top: 10px;}
+  
+    .mon1{width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .mon1 img {height: 45px;}
+  
+  .mon2{width: 100%; height: 650px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; position: relative;}
+  .cupafont {width: 20%; height: 120px; position: absolute; top: 5px; left: 170px; z-index: 1; display: block;}
+  .cupa {width: 48%; height: 70%; position: relative; display: flex; justify-content: center;}
+  .cupa1 {width: 98%; height: 350px; position: absolute; z-index: 1; background-color: white; top: 90px; 
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); border-radius: 80px 0px; overflow: hidden; }
+  .cupa1 .vcupa {width: 101%; height: 100%; object-fit: fill;}
+  .cupablack {width: 100%;
+    animation:rotate_image 35s linear infinite;transform-origin: 50% 50%;}
+  
+  @keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  .jopmon {width: 48%; height: 70%; position: relative; display: block;}
+  .m1 {position: absolute; width: 300px; right: 0px; top: 0px;}
+  .m2 {position: absolute; width: 180px; right: 240px; top: 240px;}
+  .m3 {position: absolute; width: 200px; right: 0px; top: 280px;}
+  .vs {width: 180px; position: absolute; top: 170px; right:120px;}
+  
+  .clickbox3{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png); cursor: pointer;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+    text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff; margin-top: -90px;}
+  .clickbox3:hover {background-image: url(../img/back.yellow.png); color: #333;}
+    
+  
+  /* 함께 */
+  #line {width: 100%; height: 500px; position: relative;}
+  #line .prince1 {position: absolute; z-index: 1; width: 140px; left: 3px; top: -90px;}
+  #together {width: 90%; height: 500px; margin: 0 auto;  display: flex; justify-content: space-between; position: relative;}
+  #together article {width: 48%; height: 100%; background-color: white; border-radius: 80px 0px 100px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;}
+  
+  .mujeock{position: absolute; top: 430px; width: 250px; right: -50px; z-index: 1;}
+  
+  /* 친구와 함께 */
+  #friend1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  #friend1 img {height: 45px;}
+  #friend2 {width: 100%; height: 400px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center; position: relative;}
+  #friend2 .fev {width: 80%; height: 235px; border: 4px solid rgb(46, 46, 46); margin-top: 30px; object-fit: fill; border-radius: 20px;}
+  #friend2 .in4 {position: absolute;width: 90px; right: 35px; top: 10px;}
+  .clickbox4{width: 160px; height: 80px; background-image: url(../img/블랙배경-투명도.png); cursor: pointer;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107); margin-bottom: 20px;
+    text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff;}
+  .clickbox4:hover {background-image: url(../img/back.yellow.png); color: #333; }
+  
+  /* 모르는 사람과 함께 */
+  #mf1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items:center ;}
+  #mf1 img {height: 45px;}
+  #mf2 {width: 100%; height: 400px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;}
+  #mf2 .mfbox {width: 75%; height: 200px; margin-top: 30px;  overflow: hidden;
+    border: 4px solid rgb(46, 46, 46); border-radius: 20px;}
+  #mf2 img {width: 100%; height: 100%;}
+  #mf2 .in12 {position: absolute; height: 90px; width: 90px; right: 35px; top: 108px;}
+  
+  
+  
+  /* 푸터 */
+  footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
+  #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
+  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+  #footera .ft2 {width: 400px; height: 150px;}
+  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
+  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+  text-align: center;}
+  #footera .ft3 ol {height: 155px;}
+  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+}
 
-/* 함께 */
-#together {width: 1100px; height: 500px; margin: 0 auto;  display: flex; justify-content: space-between;}
-#together article {width: 48%; height: 100%; background-color: white; border-radius: 80px 0px 100px 0px;
-  background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;}
+@media screen and (min-width : 1515px){
+/* 헤더 */
+header {width: 100%; height: 900px;
+  background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
+   background-repeat: no-repeat; background-size: cover;}
+  
+  
+   /* 메뉴 */
+   nav ul {width: 320px; height: 400px; position: absolute; right: 0; position: fixed;
+  z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
+   nav li  {width: 210px; height: 55px; font-family: 'Pretendard-Regular';
+  border-radius: 30px; text-align: center; margin: 8.5px 70px; padding: 12px; font-weight: 900; font-size: 19px;
+  background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(248, 59, 26);}
+  nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
+  box-shadow: none; }
+  
+  nav ul .x {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px;
+  border: 5px solid rgb(56, 56, 56); top: 33px; left: 6px; padding: 1px; color: tomato; ;}
+  .x:hover {background-color: gold;  border: 4px #333 solid; padding: 3px; box-shadow: none; color: rgb(54,54,54);}
+  
+   .a {width: 90px; height: 90px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
+  .b {display: none;}
+  
+  
+   /* 상단 */
+  .kingdom {width: 940px; height: 600px; position: absolute; z-index: 1; left: 7%;
+      border-radius: 60px 0px 80px 0px; top: 80px; border: 8px solid rgb(252, 252, 252);
+  box-shadow: 1px 1px 100px 8px rgb(97, 97, 97); overflow: hidden;}
+  #one {width: 100%; height: 100%; object-fit: fill; }
+  
+  .font1 {position: absolute; top: 670px; z-index: 1; left: 150px; width: 800px;}
+  .wave {width: 380px ; position: absolute; right: 0; top: 120px;}
+  .welcome {width: 1200px; height: 180px; position: absolute; opacity: 0.7;}
+  .prince {width: 250px; position: absolute; z-index: 1; left: 900px; top: 20px;}
+  .color {width: 100%; height: 300px; position: absolute; z-index: 1; top: 730px;}
+  .flower {position: absolute; right: 90px; width: 120px; top: 500px; }
+  .font2 {position: absolute; right: 20px; top: 240px; width: 250px;}
+  .font3 {position: absolute; right: 50px; height: 80px; top: 400px; cursor: pointer;} 
+  
+  /* 월드맵 */
+  
+  #course {width: 100%; height: 1500px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
+  position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png);}
+  #mario1 {position: absolute; left: 25px; width: 500px; top: 800px; z-index: 1;}
+  .note {position: absolute; right: 0; top: 1450px; width: 400px;}
+  
+  #map { width: 1300px; height: 1000px; background-image: url(/img/back.yellow.png);
+    border-radius: 100px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
+  .mapfont {width: 700px; height: 60px; margin-top: -80px; margin-bottom: 20px;}
+  
+  .mapimg{width: 100%; height: 800px; position: relative;}
+  .mapimg img {width: 100%; height: 100%;}
+  
+  #wc {cursor: pointer;}
+  #wc p {color: #fff; font-weight: 900; font-size: 17px; font-family: 'JalnanGothic'; letter-spacing: 1px; text-align: center; font-weight: 100; text-shadow: 2px 2px 2px black;}
+  
+  #wc .mbtn{position: absolute; z-index: 1; width: 180px; border-radius: 50px; padding: 10px; background-image: url(../img/블랙배경-투명도.png); background-size: cover;}
+  #wc .mbtn:hover {background-color: rgb(0, 0, 0); scale: 1.1;}
+  #w1 {top: 400px; left: 200px;}
+  #w2 {top: 150px; left: 500px; }
+  #w3 {top: 300px; right: 330px; }
+  #w4 {top: 530px; right: 140px; }
+  #w5 {top: 720px; right: 270px; }
+  #w6 {top: 600px; left: 290px; }
+  #w7 {top: 670px; left: 540px;}
+  
+  #popwrap {width: 100vw; height: 100vh; top: 0; left: 0; position: fixed; z-index: 5; display: none; background-color: rgba(0,0,0,0.5)}
+  #popup {width: 1000px; height: 600px; background-image: url(../img/흰색도트.png);
+  position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%); z-index: 5; border: solid 2px rgb(78, 78, 78); overflow: hidden;
+  border-radius: 5px;}
+  .slide {width: calc(700% + 28px); margin-left: -0%;}
+  .slide li {width: 14.25%; height: 600px; float: left; display: flex; justify-content: center; flex-flow: column wrap;
+  align-items: center;}
+  .slide li p {font-size: 20px; text-align: center; font-family: 'JalnanGothic';
+  color: #333; padding: 20px 0 0 0; letter-spacing: 1px;}
+  .videowrap {width: 80%; height: 75%; border-radius: 100px 0px; border: 6px solid rgb(53, 53, 53);
+  box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); overflow: hidden;}
+  .mapvideo {width: 101%;}
+  
+  span {position: absolute; top:50%; display: block; font-size: 40px; color:rgb(248, 59, 26); line-height: 100%; cursor: pointer; height: 50px; transform: translateY(-50%);
+  border: 6px solid rgb(54, 54, 54); font-weight: 900; background-color: white; box-shadow: 4px 0px rgb(250, 212, 0);}
+  span:hover {background: rgba(255,255,255,0.8); color:#1f1f1f;}
+  
+  
+  .prev {left:0; border-radius: 100%; width: 60px; height: 60px; margin: 0px 20px;}
+  .next {right:0; border-radius: 100%; width: 60px; height: 60px; margin: 0px 20px; text-align: center;}
+  .prev:hover {box-shadow: none; translate: 1px;}
+  .next:hover {box-shadow: none; translate: 1px;}
+  
+  #cbtn {position: absolute; right: 0;  border-radius: 100%; width: 60px; height: 60px;
+  font-size: 40px; border: 6px solid rgb(54, 54, 54); color: rgb(248, 59, 26); background-color: white;
+  text-align: center; margin: 20px; font-weight: 800; line-height: 50%; box-shadow: 4px 4px rgb(250, 212, 0);}
+  #cbtn:hover {box-shadow: none; translate: 1px; color:#1f1f1f;}
+  
+  
+  /* 섹션 */
+  #back {width: 100%; height: 3700px;  margin: 0 auto; display: flex; justify-content: center; align-items: center; flex-flow: row wrap;
+  background-image: url(../img/플라워왕국-고화질.png); background-attachment: fixed ; background-size: cover; background-position: center;}
+  
+  
+  /* 코스별 */
+  #level {width: 1300px; height: 750px; background-color: red; margin: 0 auto; border-radius: 100px 0px 100px 0px; margin-top: 150px;
+  background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);
+  }
+  .box1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .box1 img {height: 55px;}
+  .box2 {width: 100%; height: 650px; display: flex; justify-content: space-around; align-items: center;}
+  .easy {width: 44%; height: 80%; display: flex; justify-content: center; flex-flow: row wrap;
+  align-items: center;}
+  .easy img {width: 100%; height: 60px;}
+  .easybox {width: 98%; height: 320px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+  border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)}
+  .easybox img {width: 100%; height: 100%;}
+  .clickbox{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png);
+  border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+  text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff; cursor: pointer;}
+  .clickbox:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  
+  
+  .hard {width: 45%; height: 80%; ; display: flex; justify-content: center; flex-flow: row wrap;
+    align-items: center;}
+  .hard img {width: 100%; height: 60px;}
+  .hardbox {width: 98%; height: 320px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)} 
+  .hardbox img {width: 100%; height: 100%;}
+  
+  .pipe {position: absolute; width: 140px; height: 140px;  top: 15px; left: 30px; border-radius: 100%; padding: 15px; border: 5px solid rgb(48, 48, 48);
+  background-image: url(../img/플라워왕국-고화질.png); background-position: center; background-size: cover;}
+  .pipe img{width: 100%;}
+  
+  
+  /* 아이템 */
+  #item {width: 100%; height: 800px; position: relative;}
+  #item1 {width: 1300px; height: 750px; background-color:tomato; margin: 0 auto; border-radius: 100px 0px 100px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  .ibox1 {width: 100%; height: 100px; background-color: rgb(0, 64, 240); background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .ibox1 img {height: 55px; }
+  
+  .ibox2 {width: 100%; height: 700px; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+  .itb {width: 30%; height: 55%; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/파랑패턴배경.png);
+  position: relative;}
+  .itb img {width: 53%; height: 42%; z-index: 1;  }
+  .itembox {width: 50%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 5px rgb(46, 46, 46) solid;
+  font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 40px; z-index: 1;
+  margin-top: 20px;}
+  
+  .itb p {text-align: center; font-size: 17px; font-family: 'Pretendard-Regular'; width: 80%; margin-bottom: 20px;
+    font-weight: 800; color:#fff; line-height: 23px;}
+  .itb .efe {position: absolute; width: 200px; height: 180px; top: 5px; z-index: 0;}
+  
+  .clickbox2{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png); margin-bottom: 80px;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107); cursor: pointer;
+    text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff; margin-top: -90px;}
+  .clickbox2:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  #elephant {position: absolute; z-index: 1; width: 350px; left: -5px;
+  top: 510px;}
+  #drilll {position: absolute; z-index: 1; transform: scaleX(-1); right: 40px;
+  width: 220px; top: -20px;}
+  #mulbox {position: absolute; width: 250px; left: -10px; top: 760px;}
+  
+  
+  /* 몬스터 */
+  #monster {width: 1300px; height: 750px; margin: 0 auto; border-radius: 100px 0px 100px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;}
+  .caution {position: absolute; width: 180px; left: 30px; top: 10px;}
+  
+    .mon1{width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .mon1 img {height: 55px;}
+  
+  .mon2{width: 100%; height: 650px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; position: relative;}
+  .cupafont {width: 200px; position: absolute; top: 5px; left: 225px; z-index: 1;}
+  .cupa {width: 48%; height: 70%; position: relative;}
+  .cupa1 {width: 580px; height: 350px; position: absolute; z-index: 1; background-color: white; top: 90px; left: 25px;
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); border-radius: 80px 0px; overflow: hidden; }
+  .cupa1 .vcupa {width: 100%; height: 100%; object-fit: fill;}
+  .cupablack {position: absolute; top: 0px; left:8%; width: 490px;
+    animation:rotate_image 35s linear infinite;transform-origin: 50% 50%;}
+  
+  @keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  .jopmon {width: 48%; height: 70%; position: relative;}
+  .m1 {position: absolute; width: 350px; right: 6px;}
+  .m2 {position: absolute; width: 200px; right: 380px; top: 270px;}
+  .m3 {position: absolute; width: 200px; right: 130px; top: 330px;}
+  .vs {position: absolute; width: 180px; left: 200px; top: 180px; z-index: 1;}
+  
+  .clickbox3{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png); cursor: pointer;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+    text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff; margin-top: -90px;}
+  .clickbox3:hover {background-image: url(../img/back.yellow.png); color: #333;}
+    
+  
+  /* 함께 */
+  #line {width: 100%; height: 500px; position: relative;}
+  #line .prince1 {position: absolute; z-index: 1; width: 200px; left: 10px; top: -100px;}
+  #together {width: 1300px; height: 500px; margin: 0 auto;  display: flex; justify-content: space-between; position: relative;}
+  #together article {width: 48%; height: 100%; background-color: white; border-radius: 80px 0px 100px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;}
+  
+  .mujeock{position: absolute; top: 370px; width: 300px; right: 0px; z-index: 1;}
+  
+  /* 친구와 함께 */
+  #friend1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  #friend1 img {height: 55px;}
+  #friend2 {width: 100%; height: 400px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center; position: relative;}
+  #friend2 .fev {width: 75%; height: 200px; border: 4px solid rgb(46, 46, 46); margin-top: 30px; object-fit: fill; border-radius: 20px;}
+  #friend2 .in4 {position: absolute;width: 90px; right: 35px; top: 10px;}
+  .clickbox4{width: 160px; height: 80px; background-image: url(../img/블랙배경-투명도.png); cursor: pointer;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107); margin-bottom: 20px;
+    text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff;}
+  .clickbox4:hover {background-image: url(../img/back.yellow.png); color: #333; }
+  
+  /* 모르는 사람과 함께 */
+  #mf1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items:center ;}
+  #mf1 img {height: 55px;}
+  #mf2 {width: 100%; height: 400px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;}
+  #mf2 .mfbox {width: 75%; height: 200px; margin-top: 30px;  overflow: hidden;
+    border: 4px solid rgb(46, 46, 46); border-radius: 20px;}
+  #mf2 img {width: 100%; height: 100%;}
+  #mf2 .in12 {position: absolute; height: 90px; width: 90px; right: 35px; top: 108px;}
+  
+  
+  
+  /* 푸터 */
+  footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
+  #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
+  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+  #footera .ft2 {width: 400px; height: 150px;}
+  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
+  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+  text-align: center;}
+  #footera .ft3 ol {height: 155px;}
+  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+}
+
+@media screen and (min-width : 1645px){
+
+/* 헤더 */
+header {width: 100%; height: 900px;
+  background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
+   background-repeat: no-repeat; background-size: cover;}
+  
+  
+   /* 메뉴 */
+   nav ul {width: 320px; height: 400px; position: absolute; right: 0; position: fixed;
+  z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
+   nav li  {width: 210px; height: 55px; font-family: 'Pretendard-Regular';
+  border-radius: 30px; text-align: center; margin: 8.5px 70px; padding: 12px; font-weight: 900; font-size: 19px;
+  background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(255, 38, 0);}
+  nav li a {color: black;}
+  nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
+  box-shadow: none; }
 
   
-#special {width: 100%; height: 500px; background-color: green;}
-
-footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png); }
+  nav ul .x {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px;
+  border: 5px solid rgb(56, 56, 56); top: 33px; left: 6px; padding: 1px; color: tomato; ;}
+  .x:hover {background-color: gold;  border: 4px #333 solid; padding: 3px; box-shadow: none; color: rgb(54,54,54);}
+  
+   .a {width: 90px; height: 90px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
+  .b {display: none;}
+  
+  
+   /* 상단 */
+  .kingdom {width: 57%; height: 600px; position: absolute; z-index: 1; left: 7%;
+      border-radius: 60px 0px 80px 0px; top: 80px; border: 8px solid rgb(252, 252, 252);
+  box-shadow: 1px 1px 100px 8px rgb(97, 97, 97); overflow: hidden;}
+  #one {width: 100%; height: 100%; object-fit: fill; }
+  
+  .font1 {position: absolute; top: 670px; z-index: 1; left: 230px; width: 800px;}
+  .wave {width: 430px ; position: absolute; right: 0; top: 120px;}
+  .welcome {width: 1350px; height: 180px; position: absolute; opacity: 0.7;}
+  .prince {width: 250px; position: absolute; z-index: 1; left: 1050px; top: 20px;}
+  .color {width: 100%; height: 300px; position: absolute; z-index: 1; top: 730px;}
+  .flower {position: absolute; right: 120px; width: 120px; top: 560px; }
+  .font2 {position: absolute; right: 20px; top: 240px; width: 300px;}
+  .font3 {position: absolute; right: 50px; height: 100px; top: 440px; cursor: pointer;} 
+  
+  /* 월드맵 */
+  
+  #course {width: 100%; height: 1500px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
+  position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png);}
+  #mario1 {position: absolute; left: 25px; width: 500px; top: 800px; z-index: 1;}
+  .note {position: absolute; right: 0; top: 1450px; width: 400px;}
+  
+  #map { width: 1300px; height: 1000px; background-image: url(/img/back.yellow.png);
+    border-radius: 100px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
+  .mapfont {width: 700px; margin-top: -80px; margin-bottom: 20px;}
+  
+  .mapimg{width: 100%; height: 800px; position: relative;}
+  .mapimg img {width: 100%; height: 100%;}
+  
+  #wc {cursor: pointer;}
+  #wc p {color: #fff; font-weight: 900; font-size: 17px; font-family: 'JalnanGothic'; letter-spacing: 1px; text-align: center; font-weight: 100; text-shadow: 2px 2px 2px black;}
+  
+  #wc .mbtn{position: absolute; z-index: 1; width: 180px; border-radius: 50px; padding: 10px; background-image: url(../img/블랙배경-투명도.png); background-size: cover;}
+  #wc .mbtn:hover {background-color: rgb(0, 0, 0); scale: 1.1;}
+  #w1 {top: 400px; left: 200px;}
+  #w2 {top: 150px; left: 500px; }
+  #w3 {top: 300px; right: 330px; }
+  #w4 {top: 530px; right: 140px; }
+  #w5 {top: 720px; right: 270px; }
+  #w6 {top: 600px; left: 290px; }
+  #w7 {top: 670px; left: 540px;}
+  
+  #popwrap {width: 100vw; height: 100vh; top: 0; left: 0; position: fixed; z-index: 5; display: none; background-color: rgba(0,0,0,0.5)}
+  #popup {width: 1000px; height: 600px; background-image: url(../img/흰색도트.png);
+  position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%); z-index: 5; border: solid 2px rgb(78, 78, 78); overflow: hidden;
+  border-radius: 5px;}
+  .slide {width: calc(700% + 28px); margin-left: -0%;}
+  .slide li {width: 14.25%; height: 600px; float: left; display: flex; justify-content: center; flex-flow: column wrap;
+  align-items: center;}
+  .slide li p {font-size: 20px; text-align: center; font-family: 'JalnanGothic';
+  color: #333; padding: 20px 0 0 0; letter-spacing: 1px;}
+  .videowrap {width: 80%; height: 75%; border-radius: 100px 0px; border: 6px solid rgb(53, 53, 53);
+  box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); overflow: hidden;}
+  .mapvideo {width: 101%;}
+  
+  span {position: absolute; top:50%; display: block; font-size: 40px; color:rgb(248, 59, 26); line-height: 100%; cursor: pointer; height: 50px; transform: translateY(-50%);
+  border: 6px solid rgb(54, 54, 54); font-weight: 900; background-color: white; box-shadow: 4px 0px rgb(250, 212, 0);}
+  span:hover {background: rgba(255,255,255,0.8); color:#1f1f1f;}
+  
+  
+  .prev {left:0; border-radius: 100%; width: 60px; height: 60px; margin: 0px 20px;}
+  .next {right:0; border-radius: 100%; width: 60px; height: 60px; margin: 0px 20px; text-align: center;}
+  .prev:hover {box-shadow: none; translate: 1px;}
+  .next:hover {box-shadow: none; translate: 1px;}
+  
+  #cbtn {position: absolute; right: 0;  border-radius: 100%; width: 60px; height: 60px;
+  font-size: 40px; border: 6px solid rgb(54, 54, 54); color: rgb(248, 59, 26); background-color: white;
+  text-align: center; margin: 20px; font-weight: 800; line-height: 50%; box-shadow: 4px 4px rgb(250, 212, 0);}
+  #cbtn:hover {box-shadow: none; translate: 1px; color:#1f1f1f;}
+  
+  
+  /* 섹션 */
+  #back {width: 100%; height: 3700px;  margin: 0 auto; display: flex; justify-content: center; align-items: center; flex-flow: row wrap;
+  background-image: url(../img/플라워왕국-고화질.png); background-attachment: fixed ; background-size: cover; background-position: center;}
+  
+  
+  /* 코스별 */
+  #level {width: 1300px; height: 80   0px; background-color: red; margin: 0 auto; border-radius: 100px 0px 100px 0px; margin-top: 150px;
+  background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);
+  }
+  .box1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .box1 img {height: 55px;}
+  .box2 {width: 100%; height: 700px; display: flex; justify-content: space-around; align-items: center;}
+  .easy {width: 44%; height: 80%; display: flex; justify-content: center; flex-flow: row wrap;
+  align-items: center;}
+  .easy img {width: 100%; height: 70px;}
+  .easybox {width: 98%; height: 320px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+  border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)}
+  .easybox img {width: 100%; height: 100%;}
+  .clickbox{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png);
+  border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107); margin-top: 30px;
+  text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff; cursor: pointer;}
+  .clickbox:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  
+  
+  .hard {width: 45%; height: 80%; ; display: flex; justify-content: center; flex-flow: row wrap;
+    align-items: center;}
+  .hard img {width: 100%; height: 70px;}
+  .hardbox {width: 98%; height: 320px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)} 
+  .hardbox img {width: 100%; height: 100%;}
+  
+  .pipe {position: absolute; width: 140px; height: 140px;  top: 15px; left: 30px; border-radius: 100%; padding: 15px; border: 5px solid rgb(48, 48, 48);
+  background-image: url(../img/플라워왕국-고화질.png); background-position: center; background-size: cover;}
+  .pipe img{width: 100%;}
+  
+  
+  /* 아이템 */
+  #item {width: 100%; height: 800px; position: relative;}
+  #item1 {width: 1300px; height: 750px; background-color:tomato; margin: 0 auto; border-radius: 100px 0px 100px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
+  .ibox1 {width: 100%; height: 100px; background-color: rgb(0, 64, 240); background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .ibox1 img {height: 55px; }
+  
+  .ibox2 {width: 100%; height: 700px; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+  .itb {width: 30%; height: 55%; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/파랑패턴배경.png);
+  position: relative;}
+  .itb img {width: 53%; height: 42%; z-index: 1;  }
+  .itembox {width: 50%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 5px rgb(46, 46, 46) solid;
+  font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 40px; z-index: 1;
+  margin-top: 20px;}
+  
+  .itb p {text-align: center; font-size: 17px; font-family: 'Pretendard-Regular'; width: 80%; margin-bottom: 20px;
+    font-weight: 800; color:#fff; line-height: 23px;}
+  .itb .efe {position: absolute; width: 200px; height: 180px; top: 5px; z-index: 0;}
+  
+  .clickbox2{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png); margin-bottom: 55px;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107); cursor: pointer;
+    text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff; margin-top: -90px;}
+  .clickbox2:hover {background-image: url(../img/back.yellow.png); color: #333;}
+  #elephant {position: absolute; z-index: 1; width: 350px; left: -5px;
+  top: 510px;}
+  #drilll {position: absolute; z-index: 1; transform: scaleX(-1); right: 180px;
+  width: 220px; top: -20px;}
+  #mulbox {position: absolute; width: 250px; left: -10px; top: 760px;}
+  
+  
+  /* 몬스터 */
+  #monster {width: 1300px; height: 750px; margin: 0 auto; border-radius: 100px 0px 100px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;}
+  .caution {position: absolute; width: 180px; left: 30px; top: 10px;}
+  
+    .mon1{width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  .mon1 img {height: 55px;}
+  
+  .mon2{width: 100%; height: 650px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; position: relative;}
+  .cupafont {width: 190px; position: absolute; top: 5px; left: 230px; z-index: 1;}
+  .cupa {width: 48%; height: 70%; position: relative;}
+  .cupa1 {width: 580px; height: 350px; position: absolute; z-index: 1; background-color: white; top: 90px; left: 25px;
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); border-radius: 80px 0px; overflow: hidden; }
+  .cupa1 .vcupa {width: 100%; height: 100%; object-fit: fill;}
+  .cupablack {position: absolute; top: 0px; left:10%; width: 460px;
+    animation:rotate_image 35s linear infinite;transform-origin: 50% 50%;}
+  
+  @keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  .jopmon {width: 48%; height: 70%; position: relative;}
+  .m1 {position: absolute; width: 350px; right: 6px;}
+  .m2 {position: absolute; width: 200px; right: 380px; top: 270px;}
+  .m3 {position: absolute; width: 200px; right: 130px; top: 330px;}
+  .vs {position: absolute; width: 180px; left: 200px; top: 180px; z-index: 1;}
+  
+  .clickbox3{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png); cursor: pointer;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
+    text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff; margin-top: -90px;}
+  .clickbox3:hover {background-image: url(../img/back.yellow.png); color: #333;}
+    
+  
+  /* 함께 */
+  #line {width: 100%; height: 500px; position: relative;}
+  #line .prince1 {position: absolute; z-index: 1; width: 200px; left: 200px; top: -100px;}
+  #together {width: 1300px; height: 500px; margin: 0 auto;  display: flex; justify-content: space-between; position: relative;}
+  #together article {width: 48%; height: 100%; background-color: white; border-radius: 80px 0px 100px 0px;
+    background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative;}
+  
+  .mujeock{position: absolute; top: 370px; width: 370px; right: -160px; z-index: 1;}
+  
+  /* 친구와 함께 */
+  #friend1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
+  #friend1 img {height: 55px;}
+  #friend2 {width: 100%; height: 400px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center; position: relative;}
+  #friend2 .fev {width: 75%; height: 200px; border: 4px solid rgb(46, 46, 46); margin-top: 30px; object-fit: fill; border-radius: 20px;}
+  #friend2 .in4 {position: absolute;width: 90px; right: 35px; top: 10px;}
+  .clickbox4{width: 160px; height: 80px; background-image: url(../img/블랙배경-투명도.png); cursor: pointer;
+    border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107); margin-bottom: 20px;
+    text-align: center; font-size: 23px; font-weight: 800; line-height: 75px; font-family: 'JalnanGothic'; color: #fff;}
+  .clickbox4:hover {background-image: url(../img/back.yellow.png); color: #333; }
+  
+  /* 모르는 사람과 함께 */
+  #mf1 {width: 100%; height: 100px; background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items:center ;}
+  #mf1 img {height: 55px;}
+  #mf2 {width: 100%; height: 400px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;}
+  #mf2 .mfbox {width: 75%; height: 200px; margin-top: 30px;  overflow: hidden;
+    border: 4px solid rgb(46, 46, 46); border-radius: 20px;}
+  #mf2 img {width: 100%; height: 100%;}
+  #mf2 .in12 {position: absolute; height: 90px; width: 90px; right: 35px; top: 108px;}
+  
+  
+  
+  /* 푸터 */
+  footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
+  #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
+  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+  #footera .ft2 {width: 400px; height: 150px;}
+  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
+  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+  text-align: center;}
+  #footera .ft3 ol {height: 155px;}
+  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+}
 
