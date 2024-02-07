@@ -1,0 +1,38 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+*{margin: 0; padding: 0;}
+
+#slide {width: 100%; height: 900px; background-color: gold;}
+#slide img {max-width: 100%; height: auto;}
+
+
+/* 주민소개 */
+#introduce {width: 100%; height: 1400px; background-color: red; display: flex; justify-content: center; align-items: center;}
+#introduce> .introcenter {width: 1300px; height: 1200px; background-color: white; display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
+#introduce> .introcenter> .capbox {width: 100%; height: 100px; background-color: blue;}
+#introduce> .introcenter> .introbox {width: 70%; height: 23%; background-image: url(../img/back.yellow.png); float: left; border-radius: 50px 0px;
+display: flex; justify-content: center; align-items: center; flex-flow: wrap row; float: left;}
+.profile {width: 25%; height: 75%; display: flex; justify-content: center; overflow: hidden;
+border: 6px solid black; box-shadow:  0px 0px 0px 6px rgb(255, 255, 255); border-radius: 40px 0px; background-image: url(../img/흰색도트.png); }
+.profile img{width: 100%; height: 100%;}
+.text {width: 65%; height: 80%; display: flex; flex-flow: row wrap; justify-content: center;}
+.text h2 {width: 90%; height: 20%; background-color: red; font-size: 35px;}
+.text strong {width: 90%; height: 10%; font-size: 22px;}
+.text p {width: 90%; height: 60%; background-color: orange; font-size: 18px; line-height: 40px;}
+
+/* 플라워왕국 스토리 */
+#story {width: 100%; height: 1100px; background-color: aqua;}
+#story .storybox {width: 1300px; height: 300px; background-color: gold; margin: 0 auto;
+display: flex; justify-content: center; flex-flow: row wrap; align-items: center;}
+.storybox h1 {width: 100%; height: 20%; text-align: center; font-size: 50px;}
+.storybox p {width: 80%; height: 60%; text-align: center; font-size: 17px; line-height: 30px;}
+
+#story .wonderflower {width: 100%; height: 800px; background-color: brown;} 
+
+/* 캐릭터 배지 */
+#method {width: 100%; height: 1200px; background-color: royalblue;}
+
+/* 코스선택 */
+#course {width: 100%; height: 900px; background-color: red; display: flex; justify-content: center; align-items: center;}
+.coursein {width: 1300px; height: 800px; background-color: green; display: flex; justify-content: center; align-items: center; flex-flow: row wrap;}
+.coursebox {width: 90%; height: 45%; background-color: gold;}

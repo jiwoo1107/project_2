@@ -74,7 +74,7 @@ header {width: 100%; height: 600px;
   /* 월드맵 */
   
   #course {width: 100%; height: 800px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-  position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png);}
+  position: relative; margin: 0 auto; background-image: url(/img/bluebackground.png);}
   #mario1 {position: absolute; left: 0px; width: 30%; top: 500px; z-index: 1; left: 10px;}
   .note {position: absolute; right: 0; top: 760px; width: 300px;}
   
@@ -175,7 +175,7 @@ header {width: 100%; height: 600px;
   
   .ibox2 {width: 100%; height: 1130px; display: flex; flex-wrap: wrap; justify-content: space-around; align-content: space-around ;}
   .itb {width: 85%; height: 280px; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;
-    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/파랑패턴배경1.png);
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/bluebackground.png);
   position: relative; background-size: cover;}
   .itb img {width: 50%; height: 45%; z-index: 1;}
   .itembox {width: 46%; height: 45px; background-color: white; border-radius: 30px; text-align: center; border: 4px rgb(46, 46, 46) solid;
@@ -234,7 +234,7 @@ header {width: 100%; height: 600px;
   
   /* 함께 */
   #line {width: 100%; height: 1100px; position: relative; }
-  #line .prince1 {position: absolute; z-index: 1; width: 100px; left: 0px; top: -40px;}
+  #line .prince1 {position: absolute; z-index: 1; width: 100px; left: 0px; top: -10px;}
   #together {width: 100%; height: 1200px; margin: 0 auto;  display: flex; justify-content: center; position: relative; flex-wrap: wrap; align-content: space-around;}
   #together article {width: 90%; height: 420px; background-color: white; border-radius: 50px 0px 50px 0px;
     background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; } 
@@ -318,7 +318,7 @@ header {width: 100%; height: 900px;
   /* 월드맵 */
   
   #course {width: 100%; height: 1000px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-  position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png);}
+  position: relative; margin: 0 auto; background-image: url(/img/bluebackground.png);}
   #mario1 {position: absolute; left: 0px; width: 30%; top: 650px; z-index: 1; left: 10px;}
   .note {position: absolute; right: 0; top: 950px; width: 400px;}
   
@@ -416,7 +416,7 @@ header {width: 100%; height: 900px;
   
   .ibox2 {width: 100%; height: 700px; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
   .itb {width: 30%; height: 50%; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;
-    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/파랑패턴배경1.png);
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/bluebackground.png);
   position: relative; background-size: cover;}
   .itb img {width: 50%; height: 35%; z-index: 1;}
   .itembox {width: 60%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 4px rgb(46, 46, 46) solid;
@@ -556,7 +556,7 @@ header {width: 100%; height: 1050px;
   /* 월드맵 */
   
   #course {width: 100%; height: 1300px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-  position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png);}
+  position: relative; margin: 0 auto; background-image: url(/img/bluebackground.png);}
   #mario1 {position: absolute; left: 0px; width: 30%; top: 740px; z-index: 1; left: 10px;}
   .note {position: absolute; right: 0; top: 1250px; width: 400px;}
   
@@ -654,7 +654,7 @@ header {width: 100%; height: 1050px;
   
   .ibox2 {width: 100%; height: 700px; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
   .itb {width: 30%; height: 50%; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;
-    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/파랑패턴배경1.png);
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/bluebackground.png);
   position: relative; background-size: cover;}
   .itb img {width: 53%; height: 38%; z-index: 1;  }
   .itembox {width: 50%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 4px rgb(46, 46, 46) solid;
@@ -794,7 +794,7 @@ header {width: 100%; height: 900px;
   /* 월드맵 */
   
   #course {width: 100%; height: 1500px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-  position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png); background-position: center; background-size: cover;}
+  position: relative; margin: 0 auto; background-image: url(/img/bluebackground.png); background-position: center; background-size: cover;}
   #mario1 {position: absolute; left: 25px; width: 500px; top: 800px; z-index: 1;}
   .note {position: absolute; right: 0; top: 1450px; width: 400px;}
   
@@ -890,10 +890,10 @@ header {width: 100%; height: 900px;
   .ibox1 {width: 100%; height: 100px; background-color: rgb(0, 64, 240); background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
   .ibox1 img {height: 55px; }
   
-  .ibox2 {width: 100%; height: 700px; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+  .ibox2 {width: 100%; height: 700px; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; }
   .itb {width: 30%; height: 55%; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;
-    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/파랑패턴배경.png);
-  position: relative;}
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; 
+  position: relative; background-image: url(../img/bluebackground.png);}
   .itb img {width: 53%; height: 42%; z-index: 1;  }
   .itembox {width: 50%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 5px rgb(46, 46, 46) solid;
   font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 40px; z-index: 1;
@@ -1036,7 +1036,7 @@ header {width: 100%; height: 900px;
   /* 월드맵 */
   
   #course {width: 100%; height: 1500px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-  position: relative; margin: 0 auto; background-image: url(/img/파랑패턴배경.png);}
+  position: relative; margin: 0 auto; background-image: url(/img/bluebackground.png);} 
   #mario1 {position: absolute; left: 25px; width: 500px; top: 800px; z-index: 1;}
   .note {position: absolute; right: 0; top: 1450px; width: 400px;}
   
@@ -1130,11 +1130,11 @@ header {width: 100%; height: 900px;
   #item1 {width: 1300px; height: 750px; background-color:tomato; margin: 0 auto; border-radius: 100px 0px 100px 0px;
     background-image: url(../img/아이보리\ 도트.png); overflow: hidden; position: relative; box-shadow: 1px 1px 1px  rgba(73, 73, 73, 0.466);}
   .ibox1 {width: 100%; height: 100px; background-color: rgb(0, 64, 240); background-image: url(../img/back.yellow.png); display: flex; justify-content: center; align-items: center;}
-  .ibox1 img {height: 55px; }
+  .ibox1 img {height: 55px; width: 780px;}
   
   .ibox2 {width: 100%; height: 700px; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
   .itb {width: 30%; height: 55%; display: flex; justify-content: center; flex-flow: row wrap; align-items: center;
-    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/파랑패턴배경.png);
+    border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0);border-radius: 50px 0px; background-image: url(../img/bluebackground.png);
   position: relative;}
   .itb img {width: 53%; height: 42%; z-index: 1;  }
   .itembox {width: 50%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 5px rgb(46, 46, 46) solid;
@@ -1170,7 +1170,7 @@ header {width: 100%; height: 900px;
   .cupa1 {width: 580px; height: 350px; position: absolute; z-index: 1; background-color: white; top: 90px; left: 25px;
     border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); border-radius: 80px 0px; overflow: hidden; }
   .cupa1 .vcupa {width: 100%; height: 100%; object-fit: fill;}
-  .cupablack {position: absolute; top: 0px; left:10%; width: 460px;
+  .cupablack {position: absolute; top: 0px; left:20%; width: 460px;
     animation:rotate_image 35s linear infinite;transform-origin: 50% 50%;}
   
   @keyframes rotate_image{
@@ -1179,10 +1179,10 @@ header {width: 100%; height: 900px;
     }
   }
   .jopmon {width: 48%; height: 70%; position: relative;}
-  .m1 {position: absolute; width: 350px; right: 6px;}
-  .m2 {position: absolute; width: 200px; right: 380px; top: 270px;}
-  .m3 {position: absolute; width: 200px; right: 130px; top: 330px;}
-  .vs {position: absolute; width: 180px; left: 200px; top: 180px; z-index: 1;}
+  .m1 {position: absolute; width: 350px; right: 0px;}
+  .m2 {position: absolute; width: 200px; right: 380px; top: 230px;}
+  .m3 {position: absolute; width: 200px; right: 110px; top: 310px;}
+  .vs {position: absolute; width: 180px; left: 255px; top: 180px; z-index: 1;}
   
   .clickbox3{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png); cursor: pointer;
     border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107);
