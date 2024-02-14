@@ -6,7 +6,7 @@
         <title>supermario</title>
 
         <link rel="stylesheet" href="css/main.css">
-        
+        <link rel="stylesheet" href="css/common.css">
 
     </head>
 
@@ -17,13 +17,13 @@
             <img src="img/메뉴아이콘.png" alt="" class="a">
             <nav class="b">
                 <ul>
+                    <li><a href="index.html">슈퍼마리오</a></li>
                     <li><a href="sub.html">플라워왕국?</a></li>
+                    <li><a href="sub.html">코스 추천</a></li>
                     <li><a href="#">파워업</a></li>
-                    <li><a href="#">코스 추천</a></li>
                     <li><a href="#">몬스터 주의</a></li>
                     <li><a href="#">모두와 함께</a></li>
-                    <li><a href="#">구매하기</a></li>
-                    <span class="x">X</span>
+                    <span class="xbtn">X</span>
                 </ul>
                     
             </nav>
@@ -293,7 +293,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script>
 
-
+            // 팝업
             $(".mbtn").click(function(){
                 let idx=$(this).index()
 
@@ -346,22 +346,10 @@
 
             }
 
-
-
             
-        //    메뉴
-        $(function(){
-            $(".a").click(function(){
-                $(".b").slideToggle();
-                $(".a").hide();
-            });
-                $(".x").click(function(){
-                $(".b").hide();
-                $(".a").show();
-            });
-        });
+        
 
-           
+        //    팝업창 사이즈맞게
         if (window.matchMedia("(max-width: 599px)").matches) {
             $(".mbtn").each(function(i, mbtn){                
                 mbtn.children[0].innerText="W"+(i+1);      
@@ -373,7 +361,17 @@
                 mbtn.children[0].innerText=title[i];      
             });
         }
-
+            //    메뉴
+                    $(function(){
+                        $(".a").click(function(){
+                            $(".b").slideToggle();
+                            $(".a").hide();
+                        });
+                            $(".xbtn").click(function(){
+                            $(".b").hide();
+                            $(".a").show();
+                        });
+                    });
         </script>
     </body>
     </html>

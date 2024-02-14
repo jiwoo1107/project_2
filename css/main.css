@@ -4,56 +4,23 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
+	font-family: 'Pretendard';
+	font-weight: 900;
+	font-display: swap;
+	src: local('Pretendard Black'), url(./woff2/Pretendard-Black.woff2) format('woff2'), url(./woff/Pretendard-Black.woff) format('woff');
 }
 
 *{margin: 0; padding: 0; box-sizing: border-box;}
 ul,ol,li {list-style: none;}
 a {text-decoration: none; color: #333;}
 
-
-
-   /* 푸터 */
-   footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
-   #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
-   #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
-   #footera .ft2 {width: 400px; height: 150px;}
-   #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
-   #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
-   text-align: center;}
-   #footera .ft3 ol {height: 155px;}
-   #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
- 
-
 @media screen and (max-width: 599px){
   /* 헤더 */
 header {width: 100%; height: 600px;
   background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
    background-repeat: no-repeat; background-size: cover;}
-  
-  
-   /* 메뉴 */
-   nav ul {width: 200px; height: 300px; position: absolute; right: 0; position: fixed;
-  z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
-   nav ul li  {width: 130px; height: 44px; font-family: 'Pretendard-Regular'; line-height: 25px;
-  border-radius: 15px; text-align: center; margin: 3.5px 50px; padding: 6px; font-weight: 900; font-size: 15px; 
-  background-color: white; box-shadow: 4px 0px 0px rgb(250, 212, 0); border: 4px solid rgb(56, 56, 56); color:rgb(0, 0, 0);}
-  nav li a {color: black; }
-  nav ul li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 6px; cursor: pointer;
-  box-shadow: none; }
-  
-  nav ul .x {width: 35px; height: 35px; text-align: center; border-radius: 13px; font-size: 20px; font-family: 'JalnanGothic'; line-height: 30px;
-  border: 4px solid rgb(56, 56, 56); top: 25px; left: 5px;  color: rgb(247, 22, 22); box-shadow: 4px 0px 0px rgb(250, 212, 0);}
-  .x:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);
-  }
-  
-   .a {width: 50px; height: 50px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
-  .b {display: none;}
-  
   
    /* 상단 */
   .kingdom {width: 90%; height: 300px;
@@ -261,17 +228,6 @@ header {width: 100%; height: 600px;
   #mf2 img {width: 100%; height: 100%;}
   #mf2 .in12 {position: absolute; height: 70px; width: 70px; right: 1px; top: 93px;}
   
-  /* 푸터 */
-  footer {width: 100%; height: 550px; background-color: #333; background-image: url(../img/블랙배경.png);}
-  #footera {width: 100%; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
-  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
-  #footera .ft2 {width: 400px; height: 150px;}
-  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
-  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
-  text-align: center;}
-  #footera .ft3 ol {height: 155px; margin-bottom: 20px;}
-  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
-
 }
 
 @media screen and (min-width: 600px){
@@ -279,25 +235,6 @@ header {width: 100%; height: 600px;
 header {width: 100%; height: 900px;
   background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
    background-repeat: no-repeat; background-size: cover;}
-  
-  
-   /* 메뉴 */
-   nav ul {width: 260px; height: 400px; position: absolute; right: 0; position: fixed;
-  z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
-   nav li  {width: 170px; height: 53px; font-family: 'Pretendard-Regular';
-  border-radius: 30px; text-align: center; margin: 10px 70px; padding: 12px; font-weight: 900; font-size: 17px;
-  background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(248, 59, 26);}
-  nav li a {color: black;}
-  nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
-  box-shadow: none; }
-  
-  nav ul .x {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px;
-  border: 5px solid rgb(56, 56, 56); top: 36px; left: 6px; padding: 1px; color: tomato; ;box-shadow: 4px 4px 0px rgb(250, 212, 0);}
-  .x:hover {background-color: gold;  border: 4px #333 solid; padding: 3px; box-shadow: none; color: rgb(54,54,54);}
-  
-   .a {width: 70px; height: 70px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
-  .b {display: none;}
-  
   
    /* 상단 */
   .kingdom {width: 80%; height: 480px;
@@ -501,17 +438,7 @@ header {width: 100%; height: 900px;
     border: 4px solid rgb(46, 46, 46); border-radius: 20px;}
   #mf2 img {width: 100%; height: 100%;}
   #mf2 .in12 {position: absolute; height: 90px; width: 90px; right: 35px; top: 108px;}
-  
-  /* 푸터 */
-  footer {width: 100%; height: 400px; background-color: #333; background-image: url(../img/블랙배경.png);}
-  #footera {width: 100%; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
-  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
-  #footera .ft2 {width: 50%; height: 150px; display: flex; justify-content: center; align-items: center;}
-  #footera .ft2 img{width: 50%; height: 80%; margin: 0px;}
-  #footera .ft3 {width: 50%;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
-  text-align: center;}
-  #footera .ft3 ol {height: 155px;}
-  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+
 }
 
 @media screen and (min-width : 1024px){
@@ -519,24 +446,6 @@ header {width: 100%; height: 900px;
 header {width: 100%; height: 1050px;
   background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
    background-repeat: no-repeat; background-size: cover;}
-  
-  
-   /* 메뉴 */
-   nav ul {width: 260px; height: 400px; position: absolute; right: 0; position: fixed;
-  z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
-   nav li  {width: 170px; height: 53px; font-family: 'Pretendard-Regular';
-  border-radius: 30px; text-align: center; margin: 10px 70px; padding: 12px; font-weight: 900; font-size: 17px;
-  background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(248, 59, 26);}
-  nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
-  box-shadow: none; }
-  
-  nav ul .x {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px;
-  border: 5px solid rgb(56, 56, 56); top: 36px; left: 6px; padding: 1px; color: tomato; ;box-shadow: 4px 4px 0px rgb(250, 212, 0);}
-  .x:hover {background-color: gold;  border: 4px #333 solid; padding: 3px; box-shadow: none; color: rgb(54,54,54);}
-  
-   .a {width: 70px; height: 70px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
-  .b {display: none;}
-  
   
    /* 상단 */
   .kingdom {width: 86%; height: 580px; position: absolute; z-index: 1; left: 7%;
@@ -738,18 +647,6 @@ header {width: 100%; height: 1050px;
   #mf2 img {width: 100%; height: 100%;}
   #mf2 .in12 {position: absolute; height: 90px; width: 90px; right: 35px; top: 108px;}
   
-  
-  
-  /* 푸터 */
-  footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
-  #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
-  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
-  #footera .ft2 {width: 400px; height: 150px;}
-  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
-  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
-  text-align: center;}
-  #footera .ft3 ol {height: 155px;}
-  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
 }
 
 @media screen and (min-width : 1515px){
@@ -757,24 +654,6 @@ header {width: 100%; height: 1050px;
 header {width: 100%; height: 900px;
   background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
    background-repeat: no-repeat; background-size: cover;}
-  
-  
-   /* 메뉴 */
-   nav ul {width: 320px; height: 400px; position: absolute; right: 0; position: fixed;
-  z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
-   nav li  {width: 210px; height: 55px; font-family: 'Pretendard-Regular';
-  border-radius: 30px; text-align: center; margin: 8.5px 70px; padding: 12px; font-weight: 900; font-size: 19px;
-  background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(248, 59, 26);}
-  nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
-  box-shadow: none; }
-  
-  nav ul .x {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px;
-  border: 5px solid rgb(56, 56, 56); top: 33px; left: 6px; padding: 1px; color: tomato; ;}
-  .x:hover {background-color: gold;  border: 4px #333 solid; padding: 3px; box-shadow: none; color: rgb(54,54,54);}
-  
-   .a {width: 90px; height: 90px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
-  .b {display: none;}
-  
   
    /* 상단 */
   .kingdom {width: 940px; height: 600px; position: absolute; z-index: 1; left: 7%;
@@ -976,20 +855,8 @@ header {width: 100%; height: 900px;
     border: 4px solid rgb(46, 46, 46); border-radius: 20px;}
   #mf2 img {width: 100%; height: 100%;}
   #mf2 .in12 {position: absolute; height: 90px; width: 90px; right: 35px; top: 108px;}
-  
-  
-  
-  /* 푸터 */
-  footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
-  #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
-  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
-  #footera .ft2 {width: 400px; height: 150px;}
-  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
-  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
-  text-align: center;}
-  #footera .ft3 ol {height: 155px;}
-  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
-}
+
+  }
 
 @media screen and (min-width : 1645px){
 
@@ -997,18 +864,6 @@ header {width: 100%; height: 900px;
 header {width: 100%; height: 900px;
   background-image: url("../img/플라워왕국-고화질.png"); background-position: center;
    background-repeat: no-repeat; background-size: cover;}
-  
-  
-   /* 메뉴 */
-   nav ul {width: 320px; height: 400px; position: absolute; right: 0; position: fixed;
-  z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
-   nav li  {width: 210px; height: 55px; font-family: 'Pretendard-Regular';
-  border-radius: 30px; text-align: center; margin: 8.5px 70px; padding: 12px; font-weight: 900; font-size: 19px;
-  background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(255, 38, 0);}
-  nav li a {color: black;}
-  nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
-  box-shadow: none; }
-
   
   nav ul .x {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px;
   border: 5px solid rgb(56, 56, 56); top: 33px; left: 6px; padding: 1px; color: tomato; ;}
@@ -1219,17 +1074,4 @@ header {width: 100%; height: 900px;
   #mf2 img {width: 100%; height: 100%;}
   #mf2 .in12 {position: absolute; height: 90px; width: 90px; right: 35px; top: 108px;}
   
-  
-  
-  /* 푸터 */
-  footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
-  #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
-  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
-  #footera .ft2 {width: 400px; height: 150px;}
-  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
-  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
-  text-align: center;}
-  #footera .ft3 ol {height: 155px;}
-  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
-}
-
+  }

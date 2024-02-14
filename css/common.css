@@ -1,0 +1,156 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul,ol,li {list-style: none;}
+a {text-decoration: none; color: #333;}
+
+nav li {font-family: 'Pretendard';}
+nav li a {color: rgb(31, 31, 31);}
+
+@media screen and (max-width: 599px){
+    /* 메뉴 */
+   nav ul {width: 200px; height: 300px; position: absolute; right: 0; position: fixed;
+    z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
+     nav ul li  {width: 130px; height: 44px; font-family: 'Pretendard'; line-height: 25px;
+    border-radius: 15px; text-align: center; margin: 3.5px 50px; padding: 6px; font-weight: 900; font-size: 15px; 
+    background-color: white; box-shadow: 4px 0px 0px rgb(250, 212, 0); border: 4px solid rgb(56, 56, 56); color:rgb(0, 0, 0);}
+    nav li a {color: black; }
+    nav ul li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 6px; cursor: pointer;
+    box-shadow: none; }
+    
+    nav > ul > .xbtn {width: 35px; height: 36px; text-align: center; border-radius: 10px; font-size: 24px; font-family: 'Pretendard'; font-weight: 800; top: 8px;
+        border: 4.5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; cursor: pointer;}
+        .xbtn:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
+    
+     .a {width: 50px; height: 50px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
+    .b {display: none;}
+}
+
+    /* 푸터 */
+    footer {width: 100%; height: 550px; background-color: #333; background-image: url(../img/블랙배경.png);}
+    #footera {width: 100%; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
+    #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+    #footera .ft2 {width: 400px; height: 150px;}
+    #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
+    #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+    text-align: center;}
+    #footera .ft3 ol {height: 155px; margin-bottom: 20px;}
+    #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+
+    @media screen and (min-width: 600px){
+        /* 메뉴 */
+   nav ul {width: 260px; height: 400px; position: absolute; right: 0; position: fixed;
+    z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
+     nav li  {width: 170px; height: 53px; font-family: 'Pretendard';
+    border-radius: 30px; text-align: center; margin: 10px 70px; padding: 12px; font-weight: 900; font-size: 17px;
+    background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(248, 59, 26);}
+    nav li a {color: black;}
+    nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
+    box-shadow: none; }
+    
+    nav > ul > .xbtn {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800;
+        border: 5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 10px; cursor: pointer;}
+        .xbtn:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
+    
+     .a {width: 70px; height: 70px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
+    .b {display: none;}
+
+     /* 푸터 */
+  footer {width: 100%; height: 400px; background-color: #333; background-image: url(../img/블랙배경.png);}
+  #footera {width: 100%; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
+  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+  #footera .ft2 {width: 50%; height: 150px; display: flex; justify-content: center; align-items: center;}
+  #footera .ft2 img{width: 50%; height: 80%; margin: 0px;}
+  #footera .ft3 {width: 50%;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+  text-align: center;}
+  #footera .ft3 ol {height: 155px;}
+  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+    }
+
+    @media screen and (min-width : 1024px){
+        /* 메뉴 */
+   nav ul {width: 260px; height: 400px; position: absolute; right: 0; position: fixed;
+    z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
+     nav li  {width: 170px; height: 53px; font-family: 'Pretendard';
+    border-radius: 30px; text-align: center; margin: 10px 70px; padding: 12px; font-weight: 900; font-size: 17px;
+    background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(248, 59, 26);}
+    nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
+    box-shadow: none; }
+    
+    nav > ul > .xbtn {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800;
+        border: 5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 10px; cursor: pointer;}
+        .xbtn:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
+    
+     .a {width: 70px; height: 70px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
+    .b {display: none;}
+
+    /* 푸터 */
+  footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
+  #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
+  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+  #footera .ft2 {width: 400px; height: 150px;}
+  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
+  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+  text-align: center;}
+  #footera .ft3 ol {height: 155px;}
+  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+
+    }
+
+    @media screen and (min-width : 1515px){
+
+        /* 메뉴 */
+   nav ul {width: 320px; height: 400px; position: absolute; right: 0; position: fixed;
+    z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
+     nav li  {width: 210px; height: 55px; border-radius: 30px; text-align: center; 
+    margin: 8.5px 70px; padding: 12px; font-weight: 900; font-size: 19px; font-family: 'Pretendard';
+    background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(248, 59, 26);}
+    nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
+    box-shadow: none; }
+    
+    nav > ul > .xbtn {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800;
+        border: 5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 10px; cursor: pointer;}
+        .xbtn:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
+        
+         .a {width: 90px; height: 90px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
+        .b {display: none;}
+
+    /* 푸터 */
+  footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
+  #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
+  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+  #footera .ft2 {width: 400px; height: 150px;}
+  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
+  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+  text-align: center;}
+  #footera .ft3 ol {height: 155px;}
+  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+}
+    
+@media screen and (min-width : 1645px){
+
+    /* 메뉴 */
+   nav ul {width: 320px; height: 400px; position: absolute; right: 0; position: fixed;
+    z-index: 3; border-radius: 10px; border: 5px solid rgb(56, 56, 56); background-image: url(../img/아이보리\ 도트.png);}
+     nav li  {width: 210px; height: 55px; line-height: 25px; border-radius: 30px; font-family: 'Pretendard';
+        text-align: center; margin: 8.5px 70px; font-weight: 800; font-size: 19px;
+    background-color: white; box-shadow: 4px 4px 0px rgb(250, 212, 0); border: 4px solid rgb(54, 54, 54); color:rgb(255, 38, 0);}
+    nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
+    box-shadow: none; }
+
+    nav > ul > .xbtn {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800; line-height: 40px;
+    border: 5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 34px; cursor: pointer;}
+    .xbtn:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
+    
+     .a {width: 90px; height: 90px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
+    .b {display: none;}
+
+    /* 푸터 */
+  footer {width: 100%; height: 300px; background-color: #333; background-image: url(../img/블랙배경.png);}
+  #footera {width: 1000px; height: 100%; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: flex-end;}
+  #footera .ft1{width: 90%; text-align: center; color: #fff; font-size: 10px; font-family: 'Pretendard-Regular';}
+  #footera .ft2 {width: 400px; height: 150px;}
+  #footera .ft2 img{width: 210px; height: 120px; margin-left: 100px;}
+  #footera .ft3 {width: 400px;  color: #fff; font-family: 'Pretendard-Regular';font-size: 13px;
+  text-align: center;}
+  #footera .ft3 ol {height: 155px;}
+  #footera .ft3 ol li{padding: 15px 0px; cursor: pointer; }
+}
