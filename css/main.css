@@ -5,13 +5,6 @@
   font-style: normal;
 }
 
-@font-face {
-	font-family: 'Pretendard';
-	font-weight: 900;
-	font-display: swap;
-	src: local('Pretendard Black'), url(./woff2/Pretendard-Black.woff2) format('woff2'), url(./woff/Pretendard-Black.woff) format('woff');
-}
-
 *{margin: 0; padding: 0; box-sizing: border-box;}
 ul,ol,li {list-style: none;}
 a {text-decoration: none; color: #333;}
@@ -41,11 +34,11 @@ header {width: 100%; height: 600px;
   /* 월드맵 */
   
   #course {width: 100%; height: 800px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-  position: relative; margin: 0 auto; background-image: url(/img/bluebackground.png);}
+  position: relative; margin: 0 auto; background-image: url(../img/bluebackground.png);}
   #mario1 {position: absolute; left: 0px; width: 30%; top: 500px; z-index: 1; left: 10px;}
   .note {position: absolute; right: 0; top: 760px; width: 300px;}
   
-  #map { width: 95%; height: 55%; background-image: url(/img/back.yellow.png);
+  #map { width: 95%; height: 55%; background-image: url(../img/back.yellow.png);
     border-radius: 50px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
   .mapfont {width: 95%; height: 33px; margin-bottom: 20px; margin-top: -30px;}
   
@@ -146,8 +139,8 @@ header {width: 100%; height: 600px;
   position: relative; background-size: cover;}
   .itb img {width: 50%; height: 45%; z-index: 1;}
   .itembox {width: 46%; height: 45px; background-color: white; border-radius: 30px; text-align: center; border: 4px rgb(46, 46, 46) solid;
-  font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 38px; z-index: 1; margin: 0px 50px;
-  padding: 2px; font-size: 15px; }
+  font-family: 'Pretendard'; font-weight: 800; color:  rgb(46, 46, 46); line-height: 34px; z-index: 1; margin: 0px 50px;
+  padding: 2px; font-size: 18px; }
   
   .itb p {text-align: center; font-size: 13px; font-family: 'Pretendard-Regular'; width: 80%; margin-bottom: 20px;
     font-weight: 800; color:#fff; line-height: 23px;}
@@ -255,11 +248,11 @@ header {width: 100%; height: 900px;
   /* 월드맵 */
   
   #course {width: 100%; height: 1000px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-  position: relative; margin: 0 auto; background-image: url(/img/bluebackground.png);}
+  position: relative; margin: 0 auto; background-image: url(../img/bluebackground.png);}
   #mario1 {position: absolute; left: 0px; width: 30%; top: 650px; z-index: 1; left: 10px;}
   .note {position: absolute; right: 0; top: 950px; width: 400px;}
   
-  #map { width: 90%; height: 60%; background-image: url(/img/back.yellow.png);
+  #map { width: 90%; height: 60%; background-image: url(../img/back.yellow.png);
     border-radius: 100px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
   .mapfont {width: 80%px; height: 40px; margin-bottom: 20px; margin-top: -70px;}
   
@@ -357,12 +350,12 @@ header {width: 100%; height: 900px;
   position: relative; background-size: cover;}
   .itb img {width: 50%; height: 35%; z-index: 1;}
   .itembox {width: 60%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 4px rgb(46, 46, 46) solid;
-  font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 40px; z-index: 1;
-  margin-top: 5px; padding: 2px; font-size: 14px;}
+    font-size: 17px; font-family: 'Pretendard'; font-weight: 800; color:  rgb(46, 46, 46);  line-height: 40px; z-index: 1;
+  margin-top: 5px; padding: 2px; }
   
-  .itb p {text-align: center; font-size: 14px; font-family: 'Pretendard-Regular'; width: 80%; margin-bottom: 20px;
+  .itb p {text-align: center; font-size: 14px; font-family: 'Pretendard'; width: 80%; margin-bottom: 20px;
     font-weight: 800; color:#fff; line-height: 23px;}
-  .itb .efe {position: absolute; width: 90%; height: 200px; top: 5px; z-index: 0;}
+  .itb .efe {position: absolute; width: 90%; height: 180px; top: 5px; z-index: 0;}
   
   .clickbox2{width: 150px; height: 70px; background-image: url(../img/블랙배경-투명도.png); margin-bottom: 80px;
     border-radius: 100px; border: 4px white solid; box-shadow: 3px 3px 2px rgb(107, 107, 107); cursor: pointer;
@@ -465,11 +458,11 @@ header {width: 100%; height: 1050px;
   /* 월드맵 */
   
   #course {width: 100%; height: 1300px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-  position: relative; margin: 0 auto; background-image: url(/img/bluebackground.png);}
+  position: relative; margin: 0 auto; background-image: url(../img/bluebackground.png);}
   #mario1 {position: absolute; left: 0px; width: 30%; top: 740px; z-index: 1; left: 10px;}
   .note {position: absolute; right: 0; top: 1250px; width: 400px;}
   
-  #map { width: 90%; height: 800px; background-image: url(/img/back.yellow.png);
+  #map { width: 90%; height: 800px; background-image: url(../img/back.yellow.png);
     border-radius: 100px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
   .mapfont {width: 600px; height: 50px; margin-top: -80px; margin-bottom: 20px;}
   
@@ -490,17 +483,17 @@ header {width: 100%; height: 1050px;
   #w7 {top: 500px; left: 41%; }
   
   #popwrap {width: 100vw; height: 100vh; top: 0; left: 0; position: fixed; z-index: 5; display: none; background-color: rgba(0,0,0,0.5)}
-  #popup {width: 60%; height: 580px; background-image: url(../img/흰색도트.png);
-  position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%); z-index: 5; border: solid 2px rgb(78, 78, 78); overflow: hidden;
+  #popup {width: 60%; height: auto; background-image: url(../img/흰색도트.png);
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 5; border: solid 2px rgb(78, 78, 78); overflow: hidden;
   border-radius: 5px;}
   .slide {width: calc(700% + 28px); margin-left: -0%;}
   .slide li {width: 14.25%; height: 600px; float: left; display: flex; justify-content: center; flex-flow: column wrap;
   align-items: center;}
   .slide li p {font-size: 20px; text-align: center; font-family: 'JalnanGothic';
   color: #333; padding: 20px 0 0 0; letter-spacing: 1px;}
-  .videowrap {width: 70%; height: 70%; border-radius: 100px 0px; border: 6px solid rgb(53, 53, 53);
+  .videowrap {width: 70%; height: 70%; border-radius: 50px 0px; border: 6px solid rgb(53, 53, 53);
   box-shadow: 0px 0px 0px 7px rgb(250, 212, 0); overflow: hidden;}
-  .mapvideo {width: 103%;}
+  .mapvideo {width: 101%; height: 100%; object-fit: fill;}
   
   span {position: absolute; top:50%; display: block; font-size: 40px; color:rgb(248, 59, 26); line-height: 100%; cursor: pointer; height: 50px; transform: translateY(-50%);
   border: 6px solid rgb(54, 54, 54); font-weight: 900; background-color: white; box-shadow: 4px 0px rgb(250, 212, 0);}
@@ -567,10 +560,10 @@ header {width: 100%; height: 1050px;
   position: relative; background-size: cover;}
   .itb img {width: 53%; height: 38%; z-index: 1;  }
   .itembox {width: 50%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 4px rgb(46, 46, 46) solid;
-  font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 40px; z-index: 1;
+    font-size: 20px; font-family: 'Pretendard'; font-weight: 800; color:  rgb(46, 46, 46); line-height: 40px; z-index: 1;
   margin-top: 5px; padding: 2px;}
   
-  .itb p {text-align: center; font-size: 17px; font-family: 'Pretendard-Regular'; width: 80%; margin-bottom: 20px;
+  .itb p {text-align: center; font-size: 17px; font-family: 'Pretendard'; width: 80%; margin-bottom: 20px;
     font-weight: 800; color:#fff; line-height: 23px;}
   .itb .efe {position: absolute; width: 200px; height: 180px; top: 5px; z-index: 0;}
   
@@ -673,11 +666,11 @@ header {width: 100%; height: 900px;
   /* 월드맵 */
   
   #course {width: 100%; height: 1500px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-  position: relative; margin: 0 auto; background-image: url(/img/bluebackground.png); background-position: center; background-size: cover;}
+  position: relative; margin: 0 auto; background-image: url(../img/bluebackground.png); background-position: center; background-size: cover;}
   #mario1 {position: absolute; left: 25px; width: 500px; top: 800px; z-index: 1;}
   .note {position: absolute; right: 0; top: 1450px; width: 400px;}
   
-  #map { width: 1300px; height: 1000px; background-image: url(/img/back.yellow.png); background-position: center; background-size: cover;
+  #map { width: 1300px; height: 1000px; background-image: url(../img/back.yellow.png); background-position: center; background-size: cover;
     border-radius: 100px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
   .mapfont {width: 700px; height: 60px; margin-top: -80px; margin-bottom: 20px;}
   
@@ -775,10 +768,10 @@ header {width: 100%; height: 900px;
   position: relative; background-image: url(../img/bluebackground.png);}
   .itb img {width: 53%; height: 42%; z-index: 1;  }
   .itembox {width: 50%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 5px rgb(46, 46, 46) solid;
-  font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 40px; z-index: 1;
-  margin-top: 20px;}
+    font-family: 'Pretendard'; color:  rgb(46, 46, 46); font-weight: 800; line-height: 35px; z-index: 1;
+  margin-top: 20px; font-size: 20px;}
   
-  .itb p {text-align: center; font-size: 17px; font-family: 'Pretendard-Regular'; width: 80%; margin-bottom: 20px;
+  .itb p {text-align: center; font-size: 17px; font-family: 'Pretendard'; width: 80%; margin-bottom: 20px;
     font-weight: 800; color:#fff; line-height: 23px;}
   .itb .efe {position: absolute; width: 200px; height: 180px; top: 5px; z-index: 0;}
   
@@ -891,11 +884,11 @@ header {width: 100%; height: 900px;
   /* 월드맵 */
   
   #course {width: 100%; height: 1500px; display: flex; justify-content: center; align-items: center; margin: 0 auto;
-  position: relative; margin: 0 auto; background-image: url(/img/bluebackground.png);} 
+  position: relative; margin: 0 auto; background-image: url(../img/bluebackground.png);} 
   #mario1 {position: absolute; left: 25px; width: 500px; top: 800px; z-index: 1;}
   .note {position: absolute; right: 0; top: 1450px; width: 400px;}
   
-  #map { width: 1300px; height: 1000px; background-image: url(/img/back.yellow.png);
+  #map { width: 1300px; height: 1000px; background-image: url(../img/back.yellow.png);
     border-radius: 100px; display: flex; align-content: center; flex-wrap: wrap; justify-content: center; overflow: hidden;}
   .mapfont {width: 700px; margin-top: -80px; margin-bottom: 20px;}
   
@@ -959,7 +952,7 @@ header {width: 100%; height: 900px;
   .easy {width: 44%; height: 80%; display: flex; justify-content: center; flex-flow: row wrap;
   align-items: center;}
   .easy img {width: 100%; height: 70px;}
-  .easybox {width: 98%; height: 320px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+  .easybox {width: 98%; height: 330px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
   border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)}
   .easybox img {width: 100%; height: 100%;}
   .clickbox{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png);
@@ -971,7 +964,7 @@ header {width: 100%; height: 900px;
   .hard {width: 45%; height: 80%; ; display: flex; justify-content: center; flex-flow: row wrap;
     align-items: center;}
   .hard img {width: 100%; height: 70px;}
-  .hardbox {width: 98%; height: 320px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
+  .hardbox {width: 98%; height: 330px; border-radius: 50px 0px; padding: 10px; background-color: rgba(29, 29, 29, 0.164);
     border: 6px rgb(46, 46, 46) solid; box-shadow: 0px 0px 0px 7px rgb(250, 212, 0)} 
   .hardbox img {width: 100%; height: 100%;}
   
@@ -993,11 +986,10 @@ header {width: 100%; height: 900px;
   position: relative;}
   .itb img {width: 53%; height: 42%; z-index: 1;  }
   .itembox {width: 50%; height: 50px; background-color: white; border-radius: 30px; text-align: center; border: 5px rgb(46, 46, 46) solid;
-  font-family: 'JalnanGothic'; color:  rgb(46, 46, 46); font-weight: 400; line-height: 40px; z-index: 1;
-  margin-top: 20px;}
+  font-family: 'Pretendard'; color:  rgb(46, 46, 46); font-weight: 800; line-height: 38px; z-index: 1; font-size: 23px;
+  margin-top: 15px;}
   
-  .itb p {text-align: center; font-size: 17px; font-family: 'Pretendard-Regular'; width: 80%; margin-bottom: 20px;
-    font-weight: 800; color:#fff; line-height: 23px;}
+  .itb > p {text-align: center; font-size: 17px; font-family: 'Pretendard'; width: 80%; margin-bottom: 20px; color:#fff; line-height: 23px;}
   .itb .efe {position: absolute; width: 200px; height: 180px; top: 5px; z-index: 0;}
   
   .clickbox2{width: 180px; height: 80px; background-image: url(../img/블랙배경-투명도.png); margin-bottom: 55px;

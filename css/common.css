@@ -16,9 +16,12 @@ nav li a {color: rgb(31, 31, 31);}
     nav ul li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 6px; cursor: pointer;
     box-shadow: none; }
     
-    nav > ul > .xbtn {width: 35px; height: 36px; text-align: center; border-radius: 10px; font-size: 24px; font-family: 'Pretendard'; font-weight: 800; top: 8px;
-        border: 4.5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; cursor: pointer;}
-        .xbtn:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
+    nav > ul > .xbt {width: 35px; height: 36px; text-align: center; border-radius: 10px; font-size: 24px; font-family: 'Pretendard'; font-weight: 800; top: 3px;
+        border: 4.5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; cursor: pointer;
+      left:-43px; display: flex; justify-content: center; align-items: center;
+      }
+   
+        .xbt:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
     
      .a {width: 50px; height: 50px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
     .b {display: none;}
@@ -46,9 +49,9 @@ nav li a {color: rgb(31, 31, 31);}
     nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
     box-shadow: none; }
     
-    nav > ul > .xbtn {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800;
-        border: 5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 10px; cursor: pointer;}
-        .xbtn:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
+    nav > ul > .xbt {width: 50px; height: 50px; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800; line-height: 20px; display: flex; justify-content: center;
+      border: 5px solid rgb(56, 56, 56); left: -60px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 1px; cursor: pointer; position: absolute;}
+        .xbt:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
     
      .a {width: 70px; height: 70px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
     .b {display: none;}
@@ -75,9 +78,9 @@ nav li a {color: rgb(31, 31, 31);}
     nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
     box-shadow: none; }
     
-    nav > ul > .xbtn {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800;
-        border: 5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 10px; cursor: pointer;}
-        .xbtn:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
+    nav > ul > .xbt {width: 50px; height: 50px; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800; line-height: 20px; display: flex; justify-content: center;
+      border: 5px solid rgb(56, 56, 56); left: -60px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 1px; cursor: pointer; position: absolute;}
+        .xbt:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
     
      .a {width: 70px; height: 70px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
     .b {display: none;}
@@ -106,9 +109,9 @@ nav li a {color: rgb(31, 31, 31);}
     nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
     box-shadow: none; }
     
-    nav > ul > .xbtn {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800;
-        border: 5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 10px; cursor: pointer;}
-        .xbtn:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
+    nav > ul > .xbt {width: 50px; height: 50px; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800; line-height: 20px; display: flex; justify-content: center;
+      border: 5px solid rgb(56, 56, 56); left: -60px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 1px; cursor: pointer; position: absolute;}
+        .xbt:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
         
          .a {width: 90px; height: 90px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
         .b {display: none;}
@@ -136,9 +139,9 @@ nav li a {color: rgb(31, 31, 31);}
     nav li:hover {background-color: gold; border: 4px #1f1f1f solid; padding: 12px; cursor: pointer;
     box-shadow: none; }
 
-    nav > ul > .xbtn {width: 50px; height: 50px; text-align: center; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800; line-height: 40px;
-    border: 5px solid rgb(56, 56, 56); left: 6px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 34px; cursor: pointer;}
-    .xbtn:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
+    nav > ul > .xbt {width: 50px; height: 50px; border-radius: 100%; font-size: 33px; font-family: 'Pretendard'; font-weight: 800; line-height: 20px; display: flex; justify-content: center;
+    border: 5px solid rgb(56, 56, 56); left: -60px; color: tomato; box-shadow: 3px 3px 0px rgb(250, 212, 0); position: absolute; top: 1px; cursor: pointer; position: absolute;}
+    .xbt:hover {background-color: gold;  border: 4px #333 solid; box-shadow: none; color: rgb(54,54,54);}
     
      .a {width: 90px; height: 90px; position: absolute; right: 0; position: fixed; z-index: 4; cursor: pointer;}
     .b {display: none;}
